@@ -2,8 +2,8 @@ package main
 
 import (
 	"context"
+	"errors"
 	"fmt"
-	"io"
 	"log"
 	"net"
 	"os"
@@ -13,11 +13,11 @@ import (
 	"google.golang.org/grpc"
 )
 
-var requestQueue = make(chan int, 10)
+var requestQueue = make(chan *gRPC.EntryRequest, 10)
 
 type Server struct {
 	gRPC.UnimplementedMessageServiceServer
-	messageChan []chan *gRPC.JoinRequest
+	Clients map[string]*gRPC.JoinRequest
 }
 
 func main() {
@@ -53,21 +53,48 @@ func main() {
 }
 
 func newServer() *Server {
-	s := &Server{}
-	fmt.Println(s)
+	s := &Server{Clients: make(map[string]*gRPC.JoinRequest)}
+	fmt.Println(s) //prints the server struct to console
 	return s
 }
 
-func (s *Server) Join(ch *gRPC.JoinRequest, msgStream gRPC.MessageService_JoinServer) error {
-	
+func (s *Server) Join(joinRequest *gRPC.JoinRequest, msgStream gRPC.MessageService_JoinServer) error {
+	s.Clients[joinRequest.SendersName] = joinRequest //adds new client to the list
+
+	log.Printf("%s Joined the server", joinRequest.SendersName)
+
 	for {
 		select {
-		case <-msgStream.Context().Done():
-			//what happens when someone leaves
-			return nil
-			// case something:
+			case <-msgStream.Context().Done():
+				//what happens when someone leaves
+				return nil
+				// case 'something that should run all the time':
+		}
 	}
-
-
 }
 
+
+func (s *Server) Leave(ctx context.Context, leaveRequest *gRPC.LeaveRequest) (*gRPC.LeaveResponse, error) {
+	delete(s.Clients, leaveRequest.SendersName)
+	return &gRPC.LeaveResponse{Status: "left"}, nil
+}
+
+func Entry(ctx context.Context, request *gRPC.EntryRequest) (*gRPC.EntryResponse, error) {
+	select{
+		case requestQueue <- request:
+		default:
+			return &gRPC.EntryResponse{Status: "queue is full, try again later"},
+					errors.New("action not posible")
+	}
+	
+
+	return &gRPC.EntryResponse{}, nil
+}
+
+func ResourceAccess(ctx context.Context, request *gRPC.AccessRequest) (*gRPC.AccessResponse, error){
+	return nil, errors.New("not implemented")
+}
+
+func Exit(ctx context.Context, request *gRPC.ExitRequest) (*gRPC.ExitResponse, error){
+	return nil, errors.New("not implemented")
+}

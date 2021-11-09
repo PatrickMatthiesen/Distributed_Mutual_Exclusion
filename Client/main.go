@@ -1,14 +1,12 @@
 package main
 
 import (
-	"bufio"
 	"context"
 	"flag"
 	"fmt"
 	"io"
 	"log"
 	"math/rand"
-	"os"
 	"time"
 
 	"github.com/DarkLordOfDeadstiny/Distributed_Mutual_Exclusion/gRPC"
@@ -41,11 +39,12 @@ func main() {
 	go joinServer(ctx, client)
 	// exitChannel(ctx, client)
 
-	// scanner := bufio.NewScanner(os.Stdin)
-	// for scanner.Scan() {
-	// 	go sendMessage(ctx, client, scanner.Text())
-	// }
 
+	//some code for getting access here, use for and gorutines?
+	for {
+		//keeps it running for now
+		time.Sleep(time.Second * 5)// so it dont do the eat my cpu
+	}
 }
 
 func joinServer(ctx context.Context, client gRPC.MessageServiceClient) {
@@ -60,26 +59,28 @@ func joinServer(ctx context.Context, client gRPC.MessageServiceClient) {
 
 	go func() {
 		for {
-			// in, err := stream.Recv()
-			// if err == io.EOF {
-			// 	close(waitc)
-			// 	return
-			// }
-			// if err != nil {
-			// 	log.Fatalf("Failed to receive message from channel joining. \nErr: %v", err)
-			// }
+			in, err := responce.Recv()
+			if err == io.EOF {
+				fmt.Println("error")
+				close(waitc)
+				return
+			}
+			if err != nil {
+				log.Fatalf("Failed to Join server. \nErr: %v", err)
+			}
 
-			// if *sendername != in.Sender {
-			// 	if in.LamportTime > *lamportTime {
-			// 		*lamportTime = in.LamportTime + 1
-			// 	} else {
-			// 		*lamportTime++
-			// 	}
-			// 	fmt.Printf("MESSAGE: (%v) %v: %v \n", *lamportTime, in.Sender, in.Message)
-			// }
-			time.Sleep(time.Duration(rand.Intn(2))) //sleep for a random time up to 2 sec
+			if in.LamportTime > *lamportTime {
+				*lamportTime = in.LamportTime + 1
+			} else {
+				*lamportTime++
+			}
+
+			//some resquest something thing here
+			time.Sleep(time.Duration(rand.Intn(2))) //sleep for a random time up to 2 sec hilsen patrick
 		}
 	}()
 
 	<-waitc
 }
+
+//add methods for requesting things

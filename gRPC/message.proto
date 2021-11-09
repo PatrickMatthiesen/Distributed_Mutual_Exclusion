@@ -6,7 +6,7 @@ package gRPC;
 
 service MessageService
 {
-   rpc Join (JoinRequest) returns (stream JoinResponse){}
+   rpc Join (JoinRequest) returns (stream JoinResponse){} //might not need stream
    rpc Leave (LeaveRequest) returns (LeaveResponse){}
    rpc Entry (EntryRequest) returns (EntryResponse){}
    rpc resourceAccess (AccessRequest) returns (AccessResponse){}
@@ -20,14 +20,14 @@ message JoinRequest {
 }
 
 message JoinResponse {
-    string sender = 1;
+    string response = 1;
     int64 lamportTime = 2;
 }
 
 //Leave
 message LeaveRequest {
-    //user here?
-    string status = 1; 
+    string senders_name = 1;
+    string status = 2; 
 }
 
 message LeaveResponse{
