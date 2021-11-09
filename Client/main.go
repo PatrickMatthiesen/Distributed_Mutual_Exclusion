@@ -7,15 +7,14 @@ import (
 	"fmt"
 	"io"
 	"log"
+	"math/rand"
 	"os"
-
-	// "strings"
+	"time"
 
 	"github.com/DarkLordOfDeadstiny/Distributed_Mutual_Exclusion/gRPC"
 	"google.golang.org/grpc"
 )
 
-var channelname = flag.String("Channel", "default", "Chitty-Chat")
 var sendername = flag.String("sender", "default", "Senders name")
 var tcpServer = flag.String("server", "localhost:5400", "Tcp server")
 var lamportTime = flag.Int64("time", 0, "lamportTimeStamp")
@@ -39,47 +38,46 @@ func main() {
 	client := gRPC.NewMessageServiceClient(conn)
 
 	fmt.Println("--- join channel ---")
-	go joinChannel(ctx, client)
+	go joinServer(ctx, client)
 	// exitChannel(ctx, client)
 
-	scanner := bufio.NewScanner(os.Stdin)
-	for scanner.Scan() {
-		go sendMessage(ctx, client, scanner.Text())
-	}
+	// scanner := bufio.NewScanner(os.Stdin)
+	// for scanner.Scan() {
+	// 	go sendMessage(ctx, client, scanner.Text())
+	// }
 
 }
 
-func joinChannel(ctx context.Context, client gRPC.MessageServiceClient) {
+func joinServer(ctx context.Context, client gRPC.MessageServiceClient) {
 
-	joinreq := gRPC.JoinRequest{ChanName: *channelname, SendersName: *sendername}
-	stream, err := client.Join(ctx, &joinreq)
+	joinreq := gRPC.JoinRequest{SendersName: *sendername}
+	responce, err := client.Join(ctx, &joinreq)
 	if err != nil {
 		log.Fatalf("client.JoinChannel(ctx, &channel) throws: %v", err)
 	}
-
-	fmt.Printf("Joined channel: %v \n", *channelname)
 
 	waitc := make(chan struct{})
 
 	go func() {
 		for {
-			in, err := stream.Recv()
-			if err == io.EOF {
-				close(waitc)
-				return
-			}
-			if err != nil {
-				log.Fatalf("Failed to receive message from channel joining. \nErr: %v", err)
-			}
+			// in, err := stream.Recv()
+			// if err == io.EOF {
+			// 	close(waitc)
+			// 	return
+			// }
+			// if err != nil {
+			// 	log.Fatalf("Failed to receive message from channel joining. \nErr: %v", err)
+			// }
 
-			if *sendername != in.Sender {
-				if in.LamportTime > *lamportTime {
-					*lamportTime = in.LamportTime + 1
-				} else {
-					*lamportTime++
-				}
-				fmt.Printf("MESSAGE: (%v) %v: %v \n", *lamportTime, in.Sender, in.Message)
-			}
+			// if *sendername != in.Sender {
+			// 	if in.LamportTime > *lamportTime {
+			// 		*lamportTime = in.LamportTime + 1
+			// 	} else {
+			// 		*lamportTime++
+			// 	}
+			// 	fmt.Printf("MESSAGE: (%v) %v: %v \n", *lamportTime, in.Sender, in.Message)
+			// }
+			time.Sleep(time.Duration(rand.Intn(2))) //sleep for a random time up to 2 sec
 		}
 	}()
 

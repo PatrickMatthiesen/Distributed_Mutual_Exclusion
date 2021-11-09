@@ -1,12 +1,12 @@
 syntax = "proto3";
 
-option go_package = "Mini-project-2/gRPC";
+option go_package = "Distributed_Mutual_Exclusion/gRPC";
 
 package gRPC;
 
 service MessageService
 {
-   rpc Join (JoinRequest) returns (JoinResponse){}
+   rpc Join (JoinRequest) returns (stream JoinResponse){}
    rpc Leave (LeaveRequest) returns (LeaveResponse){}
    rpc Entry (EntryRequest) returns (EntryResponse){}
    rpc resourceAccess (AccessRequest) returns (AccessResponse){}
@@ -15,9 +15,8 @@ service MessageService
 
 //Join
 message JoinRequest {
-    string chan_name = 1;
-    string senders_name = 2;
-    int64 lamportTime = 3;
+    string senders_name = 1;
+    int64 lamportTime = 2;
 }
 
 message JoinResponse {
@@ -27,6 +26,7 @@ message JoinResponse {
 
 //Leave
 message LeaveRequest {
+    //user here?
     string status = 1; 
 }
 
