@@ -1,0 +1,65 @@
+syntax = "proto3";
+
+option go_package = "Mini-project-2/gRPC";
+
+package gRPC;
+
+service MessageService
+{
+   rpc Join (JoinRequest) returns (JoinResponse){}
+   rpc Leave (LeaveRequest) returns (LeaveResponse){}
+   rpc Entry (EntryRequest) returns (EntryResponse){}
+   rpc resourceAccess (AccessRequest) returns (AccessResponse){}
+   rpc Exit (ExitRequest) returns (ExitResponse){}
+}
+
+//Join
+message JoinRequest {
+    string chan_name = 1;
+    string senders_name = 2;
+    int64 lamportTime = 3;
+}
+
+message JoinResponse {
+    string sender = 1;
+    int64 lamportTime = 2;
+}
+
+//Leave
+message LeaveRequest {
+    string status = 1; 
+}
+
+message LeaveResponse{
+    string status = 1;
+}
+
+//Entry
+message EntryRequest {
+    string senders_name = 1;
+    int64 lamportTime = 2;
+}
+
+message EntryResponse {
+    string status = 1; 
+}
+
+//Access resource
+message AccessRequest {
+    string senders_name = 1;
+    int64 lamportTime = 2;
+}
+
+message AccessResponse {
+    string status = 1; 
+}
+
+//Exit
+message ExitRequest {
+    string senders_name = 1;
+    int64 lamportTime = 2;
+}
+
+message ExitResponse {
+    string status = 1; 
+}
