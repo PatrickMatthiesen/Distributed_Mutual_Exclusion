@@ -8,7 +8,7 @@ service MessageService
 {
    rpc Join (JoinRequest) returns (stream JoinResponse){} //might not need stream
    rpc Leave (LeaveRequest) returns (LeaveResponse){}
-   rpc Entry (EntryRequest) returns (EntryResponse){}
+   rpc Entry (EntryRequest) returns (stream EntryResponse){}
    rpc resourceAccess (AccessRequest) returns (AccessResponse){}
    rpc Exit (ExitRequest) returns (ExitResponse){}
 }
@@ -27,7 +27,6 @@ message JoinResponse {
 //Leave
 message LeaveRequest {
     string senders_name = 1;
-    string status = 2; 
 }
 
 message LeaveResponse{

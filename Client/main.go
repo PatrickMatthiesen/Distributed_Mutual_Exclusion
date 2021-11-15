@@ -17,6 +17,9 @@ var sendername = flag.String("sender", "default", "Senders name")
 var tcpServer = flag.String("server", "localhost:5400", "Tcp server")
 var lamportTime = flag.Int64("time", 0, "lamportTimeStamp")
 
+var ctx context.Context
+var client gRPC.MessageServiceClient
+
 func main() {
 	flag.Parse()
 
@@ -32,22 +35,27 @@ func main() {
 
 	defer conn.Close()
 
-	ctx := context.Background()
-	client := gRPC.NewMessageServiceClient(conn)
+	ctx = context.Background()
+	client = gRPC.NewMessageServiceClient(conn)
 
 	fmt.Println("--- join channel ---")
-	go joinServer(ctx, client)
+	go joinServer()
 	// exitChannel(ctx, client)
 
 
 	//some code for getting access here, use for and gorutines?
 	for {
 		//keeps it running for now
+		sendEntryRequest()
 		time.Sleep(time.Second * 5)// so it dont do the eat my cpu
+		
+		if rand.Int31n(20) == 0 {
+			leaveServer()
+		}
 	}
 }
 
-func joinServer(ctx context.Context, client gRPC.MessageServiceClient) {
+func joinServer() {
 
 	joinreq := gRPC.JoinRequest{SendersName: *sendername}
 	responce, err := client.Join(ctx, &joinreq)
@@ -81,6 +89,62 @@ func joinServer(ctx context.Context, client gRPC.MessageServiceClient) {
 	}()
 
 	<-waitc
+}
+
+func leaveServer()  {
+	request := &gRPC.LeaveRequest{ 
+		SendersName: *sendername,
+	}
+	client.Leave(ctx, request)
+	log.Printf("client: %s left the server\n", *sendername)
+}
+
+func sendEntryRequest()  {
+	log.Printf("client: %s sends entry request\n", *sendername)
+	request := &gRPC.EntryRequest{ 
+		SendersName: *sendername,
+		LamportTime: *lamportTime,
+	}
+	responce, err := client.Entry(ctx, request)
+
+	if err != nil {
+		log.Fatalf("client.JoinChannel(ctx, &channel) throws: %v", err)
+	}
+
+	switch responce.Status {
+	case "200":
+		getAccess()
+		break
+	case "409":
+		return //fuck
+	}
+}
+
+func getAccess()  {
+	request := &gRPC.AccessRequest{ 
+		SendersName: *sendername,
+		LamportTime: *lamportTime,
+	}
+	responce, err := client.ResourceAccess(ctx, request)
+
+	if err != nil {
+		log.Fatalf("client.JoinChannel(ctx, &channel) throws: %v", err)
+	}
+
+	if responce != nil {
+		
+	}
+
+	time.Sleep(time.Second * 5)
+	returnAccess()
+}
+
+func returnAccess()  {
+	request := &gRPC.ExitRequest{ 
+		SendersName: *sendername,
+		LamportTime: *lamportTime,
+	}
+	client.Exit(ctx, request)
 }
 
 //add methods for requesting things
