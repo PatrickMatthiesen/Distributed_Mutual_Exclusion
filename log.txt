@@ -1,157 +1,2044 @@
-2021/11/16 10:16:31 1 Joined the server
-2021/11/16 10:16:31 responds to entry request from 1
-2021/11/16 10:16:31 client 1 waits for its turn
-2021/11/16 10:16:33 client 2 waits for its turn
-2021/11/16 10:16:33 2 Joined the server
-2021/11/16 10:16:36 3 Joined the server
-2021/11/16 10:16:36 client 3 waits for its turn
-2021/11/16 10:16:41 responds to entry request from 2
-2021/11/16 10:16:41 client 1 waits for its turn
-2021/11/16 10:16:51 responds to entry request from 3
-2021/11/16 10:16:51 client 2 waits for its turn
-2021/11/16 10:17:01 responds to entry request from 1
-2021/11/16 10:17:01 client 3 waits for its turn
-2021/11/16 10:17:11 responds to entry request from 2
-2021/11/16 10:17:11 client 1 waits for its turn
-2021/11/16 10:17:21 responds to entry request from 3
-2021/11/16 10:17:21 client 2 waits for its turn
-2021/11/16 10:17:31 responds to entry request from 1
-2021/11/16 10:17:31 client 3 waits for its turn
-2021/11/16 10:17:41 responds to entry request from 2
-2021/11/16 10:17:41 client 1 waits for its turn
-2021/11/16 10:17:51 responds to entry request from 3
-2021/11/16 10:17:51 client 2 waits for its turn
-2021/11/16 10:18:01 responds to entry request from 1
-2021/11/16 10:18:01 client 3 waits for its turn
-2021/11/16 10:18:11 responds to entry request from 2
-2021/11/16 10:18:11 client 1 waits for its turn
-2021/11/16 10:18:21 responds to entry request from 3
-2021/11/16 10:18:21 client 2 waits for its turn
-2021/11/16 10:18:31 responds to entry request from 1
-2021/11/16 10:18:31 client 3 waits for its turn
-2021/11/16 10:18:41 responds to entry request from 2
-2021/11/16 10:18:41 client 1 waits for its turn
-2021/11/16 10:18:51 responds to entry request from 3
-2021/11/16 10:18:51 client 2 waits for its turn
-2021/11/16 10:19:01 responds to entry request from 1
-2021/11/16 10:19:01 client 3 waits for its turn
-2021/11/16 10:19:11 responds to entry request from 2
-2021/11/16 10:19:11 client 1 waits for its turn
-2021/11/16 10:19:21 responds to entry request from 3
-2021/11/16 10:19:21 client 2 waits for its turn
-2021/11/16 10:19:31 responds to entry request from 1
-2021/11/16 10:19:31 client 3 waits for its turn
-2021/11/16 10:19:41 responds to entry request from 2
-2021/11/16 10:19:41 client 1 waits for its turn
-2021/11/16 10:19:51 responds to entry request from 3
-2021/11/16 10:19:51 client 2 waits for its turn
-2021/11/16 10:20:01 responds to entry request from 1
-2021/11/16 10:20:01 client 3 waits for its turn
-2021/11/16 10:20:11 responds to entry request from 2
-2021/11/16 10:20:11 client 1 waits for its turn
-2021/11/16 10:20:21 responds to entry request from 3
-2021/11/16 10:20:21 client 2 waits for its turn
-2021/11/16 10:20:31 responds to entry request from 1
-2021/11/16 10:20:31 responds to entry request from 2
-2021/11/16 10:20:31 client 3 waits for its turn
-2021/11/16 10:20:41 responds to entry request from 3
-2021/11/16 10:20:41 responds to entry request from 2
-2021/11/16 10:20:41 client 2 waits for its turn
-2021/11/16 10:20:41 responds to entry request from 1
-2021/11/16 10:20:41 client 1 waits for its turn
-2021/11/16 10:20:51 responds to entry request from 3
-2021/11/16 10:20:51 client 3 waits for its turn
-2021/11/16 10:20:51 responds to entry request from 1
-2021/11/16 10:20:51 client 1 waits for its turn
-2021/11/16 10:20:51 responds to entry request from 2
-2021/11/16 10:20:51 client 2 waits for its turn
-2021/11/16 10:21:01 responds to entry request from 2
-2021/11/16 10:21:01 client 2 waits for its turn
-2021/11/16 10:21:01 responds to entry request from 1
-2021/11/16 10:21:01 client 1 waits for its turn
-2021/11/16 10:21:01 responds to entry request from 3
-2021/11/16 10:21:01 client 3 waits for its turn
-2021/11/16 10:21:11 responds to entry request from 2
-2021/11/16 10:21:11 client 2 waits for its turn
-2021/11/16 10:21:11 responds to entry request from 1
-2021/11/16 10:21:11 client 1 waits for its turn
-2021/11/16 10:21:11 responds to entry request from 3
-2021/11/16 10:21:11 client 3 waits for its turn
-2021/11/16 10:21:21 responds to entry request from 1
-2021/11/16 10:21:21 client 1 waits for its turn
-2021/11/16 10:21:21 responds to entry request from 2
-2021/11/16 10:21:21 client 2 waits for its turn
-2021/11/16 10:21:21 responds to entry request from 3
-2021/11/16 10:21:21 client 3 waits for its turn
-2021/11/16 10:21:31 responds to entry request from 1
-2021/11/16 10:21:31 client 1 waits for its turn
-2021/11/16 10:21:31 responds to entry request from 2
-2021/11/16 10:21:31 client 2 waits for its turn
-2021/11/16 10:21:31 responds to entry request from 3
-2021/11/16 10:21:31 client 3 waits for its turn
-2021/11/16 10:21:41 responds to entry request from 2
-2021/11/16 10:21:41 client 2 waits for its turn
-2021/11/16 10:21:41 responds to entry request from 3
-2021/11/16 10:21:41 client 3 waits for its turn
-2021/11/16 10:21:41 responds to entry request from 1
-2021/11/16 10:21:41 client 1 waits for its turn
-2021/11/16 10:21:51 responds to entry request from 3
-2021/11/16 10:21:51 client 3 waits for its turn
-2021/11/16 10:21:51 responds to entry request from 2
-2021/11/16 10:21:51 client 2 waits for its turn
-2021/11/16 10:21:51 responds to entry request from 1
-2021/11/16 10:21:51 client 1 waits for its turn
-2021/11/16 10:22:01 responds to entry request from 1
-2021/11/16 10:22:01 client 1 waits for its turn
-2021/11/16 10:22:01 responds to entry request from 2
-2021/11/16 10:22:01 client 2 waits for its turn
-2021/11/16 10:22:01 responds to entry request from 3
-2021/11/16 10:22:01 client 3 waits for its turn
-2021/11/16 10:22:11 responds to entry request from 2
-2021/11/16 10:22:11 client 2 waits for its turn
-2021/11/16 10:22:11 responds to entry request from 1
-2021/11/16 10:22:11 client 1 waits for its turn
-2021/11/16 10:22:11 responds to entry request from 3
-2021/11/16 10:22:11 client 3 waits for its turn
-2021/11/16 10:22:21 responds to entry request from 3
-2021/11/16 10:22:21 client 3 waits for its turn
-2021/11/16 10:22:21 responds to entry request from 2
-2021/11/16 10:22:21 client 2 waits for its turn
-2021/11/16 10:22:21 responds to entry request from 1
-2021/11/16 10:22:21 client 1 waits for its turn
-2021/11/16 10:22:31 responds to entry request from 2
-2021/11/16 10:22:31 client 2 waits for its turn
-2021/11/16 10:22:31 responds to entry request from 3
-2021/11/16 10:22:31 client 3 waits for its turn
-2021/11/16 10:22:31 responds to entry request from 1
-2021/11/16 10:22:31 client 1 waits for its turn
-2021/11/16 10:22:41 responds to entry request from 1
-2021/11/16 10:22:41 client 1 waits for its turn
-2021/11/16 10:22:41 responds to entry request from 2
-2021/11/16 10:22:41 client 2 waits for its turn
-2021/11/16 10:22:41 responds to entry request from 3
-2021/11/16 10:22:41 client 3 waits for its turn
-2021/11/16 10:22:51 responds to entry request from 2
-2021/11/16 10:22:51 client 2 waits for its turn
-2021/11/16 10:22:51 responds to entry request from 3
-2021/11/16 10:22:51 client 3 waits for its turn
-2021/11/16 10:22:51 responds to entry request from 1
-2021/11/16 10:22:51 client 1 waits for its turn
-2021/11/16 10:23:01 responds to entry request from 1
-2021/11/16 10:23:01 client 1 waits for its turn
-2021/11/16 10:23:01 responds to entry request from 3
-2021/11/16 10:23:01 client 3 waits for its turn
-2021/11/16 10:23:01 responds to entry request from 2
-2021/11/16 10:23:01 client 2 waits for its turn
-2021/11/16 10:23:11 responds to entry request from 1
-2021/11/16 10:23:11 client 1 waits for its turn
-2021/11/16 10:23:11 responds to entry request from 2
-2021/11/16 10:23:11 client 2 waits for its turn
-2021/11/16 10:23:11 responds to entry request from 3
-2021/11/16 10:23:11 client 3 waits for its turn
-2021/11/16 10:23:21 responds to entry request from 3
-2021/11/16 10:23:21 client 3 waits for its turn
-2021/11/16 10:23:21 responds to entry request from 2
-2021/11/16 10:23:21 client 2 waits for its turn
-2021/11/16 10:23:21 responds to entry request from 1
-2021/11/16 10:23:21 client 1 waits for its turn
+2021/11/16 12:31:52 Client 1 attempts to retrieve the access token 
+2021/11/16 12:31:52 1 Joined the server
+2021/11/16 12:31:52 Access to resource has been given to client: (1)
+2021/11/16 12:31:52 client 1 waits for its turn
+2021/11/16 12:31:52 Client 1 has accessed the resource 
+2021/11/16 12:31:53 Client 1 exits the resource 
+2021/11/16 12:31:53 Client 1 attempts to retrieve the access token 
+2021/11/16 12:31:53 Access to resource has been given to client: (1)
+2021/11/16 12:31:53 client 1 waits for its turn
+2021/11/16 12:31:53 Client 1 has accessed the resource 
+2021/11/16 12:31:54 Client 1 exits the resource 
+2021/11/16 12:31:54 Client 1 attempts to retrieve the access token 
+2021/11/16 12:31:54 Access to resource has been given to client: (1)
+2021/11/16 12:31:54 client 1 waits for its turn
+2021/11/16 12:31:54 Client 1 has accessed the resource 
+2021/11/16 12:31:55 2 Joined the server
+2021/11/16 12:31:55 Client 2 attempts to retrieve the access token 
+2021/11/16 12:31:55 client 2 waits for its turn
+2021/11/16 12:31:55 Client 1 exits the resource 
+2021/11/16 12:31:55 Access to resource has been given to client: (2)
+2021/11/16 12:31:55 Client 1 attempts to retrieve the access token 
+2021/11/16 12:31:55 client 1 waits for its turn
+2021/11/16 12:31:55 Client 2 has accessed the resource 
+2021/11/16 12:31:56 Client 2 exits the resource 
+2021/11/16 12:31:56 Access to resource has been given to client: (1)
+2021/11/16 12:31:56 Client 2 attempts to retrieve the access token 
+2021/11/16 12:31:56 client 2 waits for its turn
+2021/11/16 12:31:56 Client 1 has accessed the resource 
+2021/11/16 12:31:57 Client 1 exits the resource 
+2021/11/16 12:31:57 Access to resource has been given to client: (2)
+2021/11/16 12:31:57 Client 2 has accessed the resource 
+2021/11/16 12:31:57 Client 1 attempts to retrieve the access token 
+2021/11/16 12:31:57 client 1 waits for its turn
+2021/11/16 12:31:58 Client 3 attempts to retrieve the access token 
+2021/11/16 12:31:58 client 3 waits for its turn
+2021/11/16 12:31:58 3 Joined the server
+2021/11/16 12:31:58 Client 2 exits the resource 
+2021/11/16 12:31:58 Access to resource has been given to client: (1)
+2021/11/16 12:31:58 Client 1 has accessed the resource 
+2021/11/16 12:31:58 Client 2 attempts to retrieve the access token 
+2021/11/16 12:31:58 client 2 waits for its turn
+2021/11/16 12:31:59 Client 1 exits the resource 
+2021/11/16 12:31:59 Access to resource has been given to client: (3)
+2021/11/16 12:31:59 Client 1 attempts to retrieve the access token 
+2021/11/16 12:31:59 client 1 waits for its turn
+2021/11/16 12:31:59 Client 3 has accessed the resource 
+2021/11/16 12:32:00 Client 3 exits the resource 
+2021/11/16 12:32:00 Access to resource has been given to client: (2)
+2021/11/16 12:32:00 Client 2 has accessed the resource 
+2021/11/16 12:32:00 Client 3 attempts to retrieve the access token 
+2021/11/16 12:32:00 client 3 waits for its turn
+2021/11/16 12:32:01 Client 2 exits the resource 
+2021/11/16 12:32:01 Access to resource has been given to client: (1)
+2021/11/16 12:32:01 Client 2 attempts to retrieve the access token 
+2021/11/16 12:32:01 client 2 waits for its turn
+2021/11/16 12:32:01 Client 1 has accessed the resource 
+2021/11/16 12:32:02 Client 1 exits the resource 
+2021/11/16 12:32:02 Access to resource has been given to client: (3)
+2021/11/16 12:32:02 Client 1 attempts to retrieve the access token 
+2021/11/16 12:32:02 client 1 waits for its turn
+2021/11/16 12:32:02 Client 3 has accessed the resource 
+2021/11/16 12:32:03 Client 3 exits the resource 
+2021/11/16 12:32:03 Access to resource has been given to client: (2)
+2021/11/16 12:32:03 Client 2 has accessed the resource 
+2021/11/16 12:32:03 Client 3 attempts to retrieve the access token 
+2021/11/16 12:32:03 client 3 waits for its turn
+2021/11/16 12:32:04 Client 2 exits the resource 
+2021/11/16 12:32:04 Access to resource has been given to client: (1)
+2021/11/16 12:32:04 Client 1 has accessed the resource 
+2021/11/16 12:32:04 Client 2 attempts to retrieve the access token 
+2021/11/16 12:32:04 client 2 waits for its turn
+2021/11/16 12:32:05 Client 1 exits the resource 
+2021/11/16 12:32:05 Access to resource has been given to client: (3)
+2021/11/16 12:32:05 Client 3 has accessed the resource 
+2021/11/16 12:32:05 Client 1 attempts to retrieve the access token 
+2021/11/16 12:32:05 client 1 waits for its turn
+2021/11/16 12:32:06 Client 3 exits the resource 
+2021/11/16 12:32:06 Access to resource has been given to client: (2)
+2021/11/16 12:32:06 Client 3 attempts to retrieve the access token 
+2021/11/16 12:32:06 client 3 waits for its turn
+2021/11/16 12:32:06 Client 2 has accessed the resource 
+2021/11/16 12:32:07 Client 2 exits the resource 
+2021/11/16 12:32:07 Access to resource has been given to client: (1)
+2021/11/16 12:32:07 Client 2 attempts to retrieve the access token 
+2021/11/16 12:32:07 client 2 waits for its turn
+2021/11/16 12:32:07 Client 1 has accessed the resource 
+2021/11/16 12:32:08 Client 1 exits the resource 
+2021/11/16 12:32:09 Access to resource has been given to client: (3)
+2021/11/16 12:32:09 Client 3 has accessed the resource 
+2021/11/16 12:32:09 Client 1 attempts to retrieve the access token 
+2021/11/16 12:32:09 client 1 waits for its turn
+2021/11/16 12:32:10 Client 3 exits the resource 
+2021/11/16 12:32:10 Access to resource has been given to client: (2)
+2021/11/16 12:32:10 Client 3 attempts to retrieve the access token 
+2021/11/16 12:32:10 client 3 waits for its turn
+2021/11/16 12:32:10 Client 2 has accessed the resource 
+2021/11/16 12:32:11 Client 2 exits the resource 
+2021/11/16 12:32:11 Access to resource has been given to client: (1)
+2021/11/16 12:32:11 Client 2 attempts to retrieve the access token 
+2021/11/16 12:32:11 client 2 waits for its turn
+2021/11/16 12:32:11 Client 1 has accessed the resource 
+2021/11/16 12:32:12 Client 1 exits the resource 
+2021/11/16 12:32:12 Access to resource has been given to client: (3)
+2021/11/16 12:32:12 Client 3 has accessed the resource 
+2021/11/16 12:32:12 Client 1 attempts to retrieve the access token 
+2021/11/16 12:32:12 client 1 waits for its turn
+2021/11/16 12:32:13 Client 3 exits the resource 
+2021/11/16 12:32:13 Access to resource has been given to client: (2)
+2021/11/16 12:32:13 Client 2 has accessed the resource 
+2021/11/16 12:32:13 Client 3 attempts to retrieve the access token 
+2021/11/16 12:32:13 client 3 waits for its turn
+2021/11/16 12:32:14 Client 2 exits the resource 
+2021/11/16 12:32:14 Access to resource has been given to client: (1)
+2021/11/16 12:32:14 Client 1 has accessed the resource 
+2021/11/16 12:32:14 Client 2 attempts to retrieve the access token 
+2021/11/16 12:32:14 client 2 waits for its turn
+2021/11/16 12:32:15 Client 1 exits the resource 
+2021/11/16 12:32:15 Access to resource has been given to client: (3)
+2021/11/16 12:32:15 Client 3 has accessed the resource 
+2021/11/16 12:32:15 Client 1 attempts to retrieve the access token 
+2021/11/16 12:32:15 client 1 waits for its turn
+2021/11/16 12:32:16 Client 3 exits the resource 
+2021/11/16 12:32:16 Access to resource has been given to client: (2)
+2021/11/16 12:32:16 Client 2 has accessed the resource 
+2021/11/16 12:32:16 Client 3 attempts to retrieve the access token 
+2021/11/16 12:32:16 client 3 waits for its turn
+2021/11/16 12:32:17 Client 2 exits the resource 
+2021/11/16 12:32:17 Access to resource has been given to client: (1)
+2021/11/16 12:32:17 Client 2 attempts to retrieve the access token 
+2021/11/16 12:32:17 client 2 waits for its turn
+2021/11/16 12:32:17 Client 1 has accessed the resource 
+2021/11/16 12:32:18 Client 1 exits the resource 
+2021/11/16 12:32:18 Access to resource has been given to client: (3)
+2021/11/16 12:32:18 Client 1 attempts to retrieve the access token 
+2021/11/16 12:32:18 client 1 waits for its turn
+2021/11/16 12:32:18 Client 3 has accessed the resource 
+2021/11/16 12:32:19 Client 3 exits the resource 
+2021/11/16 12:32:19 Access to resource has been given to client: (2)
+2021/11/16 12:32:19 Client 2 has accessed the resource 
+2021/11/16 12:32:19 Client 3 attempts to retrieve the access token 
+2021/11/16 12:32:19 client 3 waits for its turn
+2021/11/16 12:32:20 Client 2 exits the resource 
+2021/11/16 12:32:20 Access to resource has been given to client: (1)
+2021/11/16 12:32:20 Client 2 attempts to retrieve the access token 
+2021/11/16 12:32:20 client 2 waits for its turn
+2021/11/16 12:32:20 Client 1 has accessed the resource 
+2021/11/16 12:32:21 Client 1 exits the resource 
+2021/11/16 12:32:21 Access to resource has been given to client: (3)
+2021/11/16 12:32:21 Client 3 has accessed the resource 
+2021/11/16 12:32:21 Client 1 attempts to retrieve the access token 
+2021/11/16 12:32:21 client 1 waits for its turn
+2021/11/16 12:32:22 Client 3 exits the resource 
+2021/11/16 12:32:22 Access to resource has been given to client: (2)
+2021/11/16 12:32:22 Client 3 attempts to retrieve the access token 
+2021/11/16 12:32:22 client 3 waits for its turn
+2021/11/16 12:32:22 Client 2 has accessed the resource 
+2021/11/16 12:32:23 Client 2 exits the resource 
+2021/11/16 12:32:23 Access to resource has been given to client: (1)
+2021/11/16 12:32:23 Client 1 has accessed the resource 
+2021/11/16 12:32:23 Client 2 attempts to retrieve the access token 
+2021/11/16 12:32:23 client 2 waits for its turn
+2021/11/16 12:32:24 Client 1 exits the resource 
+2021/11/16 12:32:24 Access to resource has been given to client: (3)
+2021/11/16 12:32:24 Client 3 has accessed the resource 
+2021/11/16 12:32:24 Client 1 attempts to retrieve the access token 
+2021/11/16 12:32:24 client 1 waits for its turn
+2021/11/16 12:32:25 Client 3 exits the resource 
+2021/11/16 12:32:25 Access to resource has been given to client: (2)
+2021/11/16 12:32:25 Client 2 has accessed the resource 
+2021/11/16 12:32:25 Client 3 attempts to retrieve the access token 
+2021/11/16 12:32:25 client 3 waits for its turn
+2021/11/16 12:32:26 Client 2 exits the resource 
+2021/11/16 12:32:26 Access to resource has been given to client: (1)
+2021/11/16 12:32:26 Client 2 attempts to retrieve the access token 
+2021/11/16 12:32:26 client 2 waits for its turn
+2021/11/16 12:32:26 Client 1 has accessed the resource 
+2021/11/16 12:32:27 Client 1 exits the resource 
+2021/11/16 12:32:27 Access to resource has been given to client: (3)
+2021/11/16 12:32:27 Client 1 attempts to retrieve the access token 
+2021/11/16 12:32:27 client 1 waits for its turn
+2021/11/16 12:32:27 Client 3 has accessed the resource 
+2021/11/16 12:32:28 Client 3 exits the resource 
+2021/11/16 12:32:28 Access to resource has been given to client: (2)
+2021/11/16 12:32:28 Client 2 has accessed the resource 
+2021/11/16 12:32:28 Client 3 attempts to retrieve the access token 
+2021/11/16 12:32:28 client 3 waits for its turn
+2021/11/16 12:32:29 Client 2 exits the resource 
+2021/11/16 12:32:29 Access to resource has been given to client: (1)
+2021/11/16 12:32:29 Client 1 has accessed the resource 
+2021/11/16 12:32:29 Client 2 attempts to retrieve the access token 
+2021/11/16 12:32:29 client 2 waits for its turn
+2021/11/16 12:32:30 Client 1 exits the resource 
+2021/11/16 12:32:30 Access to resource has been given to client: (3)
+2021/11/16 12:32:30 Client 1 attempts to retrieve the access token 
+2021/11/16 12:32:30 client 1 waits for its turn
+2021/11/16 12:32:30 Client 3 has accessed the resource 
+2021/11/16 12:32:31 Client 3 exits the resource 
+2021/11/16 12:32:31 Access to resource has been given to client: (2)
+2021/11/16 12:32:31 Client 2 has accessed the resource 
+2021/11/16 12:32:31 Client 3 attempts to retrieve the access token 
+2021/11/16 12:32:31 client 3 waits for its turn
+2021/11/16 12:32:32 Client 2 exits the resource 
+2021/11/16 12:32:32 Access to resource has been given to client: (1)
+2021/11/16 12:32:32 Client 1 has accessed the resource 
+2021/11/16 12:32:32 Client 2 attempts to retrieve the access token 
+2021/11/16 12:32:32 client 2 waits for its turn
+2021/11/16 12:32:33 Client 1 exits the resource 
+2021/11/16 12:32:33 Access to resource has been given to client: (3)
+2021/11/16 12:32:33 Client 1 attempts to retrieve the access token 
+2021/11/16 12:32:33 client 1 waits for its turn
+2021/11/16 12:32:33 Client 3 has accessed the resource 
+2021/11/16 12:32:34 Client 3 exits the resource 
+2021/11/16 12:32:34 Access to resource has been given to client: (2)
+2021/11/16 12:32:34 Client 3 attempts to retrieve the access token 
+2021/11/16 12:32:34 client 3 waits for its turn
+2021/11/16 12:32:34 Client 2 has accessed the resource 
+2021/11/16 12:32:35 Client 2 exits the resource 
+2021/11/16 12:32:35 Access to resource has been given to client: (1)
+2021/11/16 12:32:35 Client 2 attempts to retrieve the access token 
+2021/11/16 12:32:35 client 2 waits for its turn
+2021/11/16 12:32:35 Client 1 has accessed the resource 
+2021/11/16 12:32:36 Client 1 exits the resource 
+2021/11/16 12:32:36 Access to resource has been given to client: (3)
+2021/11/16 12:32:36 Client 3 has accessed the resource 
+2021/11/16 12:32:36 Client 1 attempts to retrieve the access token 
+2021/11/16 12:32:36 client 1 waits for its turn
+2021/11/16 12:32:37 Client 3 exits the resource 
+2021/11/16 12:32:37 Access to resource has been given to client: (2)
+2021/11/16 12:32:37 Client 2 has accessed the resource 
+2021/11/16 12:32:37 Client 3 attempts to retrieve the access token 
+2021/11/16 12:32:37 client 3 waits for its turn
+2021/11/16 12:32:38 Client 2 exits the resource 
+2021/11/16 12:32:38 Access to resource has been given to client: (1)
+2021/11/16 12:32:38 Client 1 has accessed the resource 
+2021/11/16 12:32:38 Client 2 attempts to retrieve the access token 
+2021/11/16 12:32:38 client 2 waits for its turn
+2021/11/16 12:32:39 Client 1 exits the resource 
+2021/11/16 12:32:39 Access to resource has been given to client: (3)
+2021/11/16 12:32:39 Client 1 attempts to retrieve the access token 
+2021/11/16 12:32:39 client 1 waits for its turn
+2021/11/16 12:32:39 Client 3 has accessed the resource 
+2021/11/16 12:32:40 Client 3 exits the resource 
+2021/11/16 12:32:40 Access to resource has been given to client: (2)
+2021/11/16 12:32:40 Client 2 has accessed the resource 
+2021/11/16 12:32:40 Client 3 attempts to retrieve the access token 
+2021/11/16 12:32:40 client 3 waits for its turn
+2021/11/16 12:32:41 Client 2 exits the resource 
+2021/11/16 12:32:41 Access to resource has been given to client: (1)
+2021/11/16 12:32:41 Client 2 attempts to retrieve the access token 
+2021/11/16 12:32:41 client 2 waits for its turn
+2021/11/16 12:32:41 Client 1 has accessed the resource 
+2021/11/16 12:32:42 Client 1 exits the resource 
+2021/11/16 12:32:42 Access to resource has been given to client: (3)
+2021/11/16 12:32:42 Client 1 attempts to retrieve the access token 
+2021/11/16 12:32:42 client 1 waits for its turn
+2021/11/16 12:32:42 Client 3 has accessed the resource 
+2021/11/16 12:32:43 Client 3 exits the resource 
+2021/11/16 12:32:43 Access to resource has been given to client: (2)
+2021/11/16 12:32:43 Client 2 has accessed the resource 
+2021/11/16 12:32:43 Client 3 attempts to retrieve the access token 
+2021/11/16 12:32:43 client 3 waits for its turn
+2021/11/16 12:32:44 Client 2 exits the resource 
+2021/11/16 12:32:44 Access to resource has been given to client: (1)
+2021/11/16 12:32:44 Client 2 attempts to retrieve the access token 
+2021/11/16 12:32:44 client 2 waits for its turn
+2021/11/16 12:32:44 Client 1 has accessed the resource 
+2021/11/16 12:32:45 Client 1 exits the resource 
+2021/11/16 12:32:45 Access to resource has been given to client: (3)
+2021/11/16 12:32:45 Client 3 has accessed the resource 
+2021/11/16 12:32:45 Client 1 attempts to retrieve the access token 
+2021/11/16 12:32:45 client 1 waits for its turn
+2021/11/16 12:32:46 Client 3 exits the resource 
+2021/11/16 12:32:46 Access to resource has been given to client: (2)
+2021/11/16 12:32:46 Client 2 has accessed the resource 
+2021/11/16 12:32:46 Client 3 attempts to retrieve the access token 
+2021/11/16 12:32:46 client 3 waits for its turn
+2021/11/16 12:32:47 Client 2 exits the resource 
+2021/11/16 12:32:47 Access to resource has been given to client: (1)
+2021/11/16 12:32:47 Client 1 has accessed the resource 
+2021/11/16 12:32:47 Client 2 attempts to retrieve the access token 
+2021/11/16 12:32:47 client 2 waits for its turn
+2021/11/16 12:32:48 Client 1 exits the resource 
+2021/11/16 12:32:48 Access to resource has been given to client: (3)
+2021/11/16 12:32:48 Client 1 attempts to retrieve the access token 
+2021/11/16 12:32:48 client 1 waits for its turn
+2021/11/16 12:32:48 Client 3 has accessed the resource 
+2021/11/16 12:32:49 Client 3 exits the resource 
+2021/11/16 12:32:49 Access to resource has been given to client: (2)
+2021/11/16 12:32:49 Client 2 has accessed the resource 
+2021/11/16 12:32:49 Client 3 attempts to retrieve the access token 
+2021/11/16 12:32:49 client 3 waits for its turn
+2021/11/16 12:32:50 Client 2 exits the resource 
+2021/11/16 12:32:50 Access to resource has been given to client: (1)
+2021/11/16 12:32:50 Client 2 attempts to retrieve the access token 
+2021/11/16 12:32:50 client 2 waits for its turn
+2021/11/16 12:32:50 Client 1 has accessed the resource 
+2021/11/16 12:32:51 Client 1 exits the resource 
+2021/11/16 12:32:51 Access to resource has been given to client: (3)
+2021/11/16 12:32:51 Client 1 attempts to retrieve the access token 
+2021/11/16 12:32:51 client 1 waits for its turn
+2021/11/16 12:32:51 Client 3 has accessed the resource 
+2021/11/16 12:32:52 Client 3 exits the resource 
+2021/11/16 12:32:52 Access to resource has been given to client: (2)
+2021/11/16 12:32:52 Client 2 has accessed the resource 
+2021/11/16 12:32:52 Client 3 attempts to retrieve the access token 
+2021/11/16 12:32:52 client 3 waits for its turn
+2021/11/16 12:32:53 Client 2 exits the resource 
+2021/11/16 12:32:53 Access to resource has been given to client: (1)
+2021/11/16 12:32:53 Client 2 attempts to retrieve the access token 
+2021/11/16 12:32:53 client 2 waits for its turn
+2021/11/16 12:32:53 Client 1 has accessed the resource 
+2021/11/16 12:32:54 Client 1 exits the resource 
+2021/11/16 12:32:54 Access to resource has been given to client: (3)
+2021/11/16 12:32:54 Client 3 has accessed the resource 
+2021/11/16 12:32:54 Client 1 attempts to retrieve the access token 
+2021/11/16 12:32:54 client 1 waits for its turn
+2021/11/16 12:32:55 Client 3 exits the resource 
+2021/11/16 12:32:55 Access to resource has been given to client: (2)
+2021/11/16 12:32:55 Client 2 has accessed the resource 
+2021/11/16 12:32:55 Client 3 attempts to retrieve the access token 
+2021/11/16 12:32:55 client 3 waits for its turn
+2021/11/16 12:32:56 Client 2 exits the resource 
+2021/11/16 12:32:56 Access to resource has been given to client: (1)
+2021/11/16 12:32:56 Client 2 attempts to retrieve the access token 
+2021/11/16 12:32:56 client 2 waits for its turn
+2021/11/16 12:32:56 Client 1 has accessed the resource 
+2021/11/16 12:32:57 Client 1 exits the resource 
+2021/11/16 12:32:57 Access to resource has been given to client: (3)
+2021/11/16 12:32:57 Client 3 has accessed the resource 
+2021/11/16 12:32:57 Client 1 attempts to retrieve the access token 
+2021/11/16 12:32:57 client 1 waits for its turn
+2021/11/16 12:32:58 Client 3 exits the resource 
+2021/11/16 12:32:58 Access to resource has been given to client: (2)
+2021/11/16 12:32:58 Client 3 attempts to retrieve the access token 
+2021/11/16 12:32:58 client 3 waits for its turn
+2021/11/16 12:32:58 Client 2 has accessed the resource 
+2021/11/16 12:32:59 Client 2 exits the resource 
+2021/11/16 12:32:59 Access to resource has been given to client: (1)
+2021/11/16 12:32:59 Client 1 has accessed the resource 
+2021/11/16 12:32:59 Client 2 attempts to retrieve the access token 
+2021/11/16 12:32:59 client 2 waits for its turn
+2021/11/16 12:33:00 Client 1 exits the resource 
+2021/11/16 12:33:00 Access to resource has been given to client: (3)
+2021/11/16 12:33:00 Client 1 attempts to retrieve the access token 
+2021/11/16 12:33:00 client 1 waits for its turn
+2021/11/16 12:33:00 Client 3 has accessed the resource 
+2021/11/16 12:33:01 Client 3 exits the resource 
+2021/11/16 12:33:01 Access to resource has been given to client: (2)
+2021/11/16 12:33:01 Client 2 has accessed the resource 
+2021/11/16 12:33:01 Client 3 attempts to retrieve the access token 
+2021/11/16 12:33:01 client 3 waits for its turn
+2021/11/16 12:33:02 Client 2 exits the resource 
+2021/11/16 12:33:02 Access to resource has been given to client: (1)
+2021/11/16 12:33:02 Client 2 attempts to retrieve the access token 
+2021/11/16 12:33:02 client 2 waits for its turn
+2021/11/16 12:33:02 Client 1 has accessed the resource 
+2021/11/16 12:33:03 Client 1 exits the resource 
+2021/11/16 12:33:03 Access to resource has been given to client: (3)
+2021/11/16 12:33:03 Client 1 attempts to retrieve the access token 
+2021/11/16 12:33:03 client 1 waits for its turn
+2021/11/16 12:33:03 Client 3 has accessed the resource 
+2021/11/16 12:33:04 Client 3 exits the resource 
+2021/11/16 12:33:04 Access to resource has been given to client: (2)
+2021/11/16 12:33:04 Client 3 attempts to retrieve the access token 
+2021/11/16 12:33:04 client 3 waits for its turn
+2021/11/16 12:33:04 Client 2 has accessed the resource 
+2021/11/16 12:33:05 Client 2 exits the resource 
+2021/11/16 12:33:05 Access to resource has been given to client: (1)
+2021/11/16 12:33:05 Client 2 attempts to retrieve the access token 
+2021/11/16 12:33:05 client 2 waits for its turn
+2021/11/16 12:33:05 Client 1 has accessed the resource 
+2021/11/16 12:33:06 Client 1 exits the resource 
+2021/11/16 12:33:06 Access to resource has been given to client: (3)
+2021/11/16 12:33:06 Client 1 attempts to retrieve the access token 
+2021/11/16 12:33:06 client 1 waits for its turn
+2021/11/16 12:33:06 Client 3 has accessed the resource 
+2021/11/16 12:33:07 Client 3 exits the resource 
+2021/11/16 12:33:07 Access to resource has been given to client: (2)
+2021/11/16 12:33:07 Client 2 has accessed the resource 
+2021/11/16 12:33:07 Client 3 attempts to retrieve the access token 
+2021/11/16 12:33:07 client 3 waits for its turn
+2021/11/16 12:33:08 Client 2 exits the resource 
+2021/11/16 12:33:08 Access to resource has been given to client: (1)
+2021/11/16 12:33:08 Client 2 attempts to retrieve the access token 
+2021/11/16 12:33:08 client 2 waits for its turn
+2021/11/16 12:33:08 Client 1 has accessed the resource 
+2021/11/16 12:33:09 Client 1 exits the resource 
+2021/11/16 12:33:09 Access to resource has been given to client: (3)
+2021/11/16 12:33:09 Client 3 has accessed the resource 
+2021/11/16 12:33:09 Client 1 attempts to retrieve the access token 
+2021/11/16 12:33:09 client 1 waits for its turn
+2021/11/16 12:33:10 Client 3 exits the resource 
+2021/11/16 12:33:10 Access to resource has been given to client: (2)
+2021/11/16 12:33:10 Client 3 attempts to retrieve the access token 
+2021/11/16 12:33:10 client 3 waits for its turn
+2021/11/16 12:33:10 Client 2 has accessed the resource 
+2021/11/16 12:33:11 Client 2 exits the resource 
+2021/11/16 12:33:11 Access to resource has been given to client: (1)
+2021/11/16 12:33:11 Client 1 has accessed the resource 
+2021/11/16 12:33:11 Client 2 attempts to retrieve the access token 
+2021/11/16 12:33:11 client 2 waits for its turn
+2021/11/16 12:33:12 Client 1 exits the resource 
+2021/11/16 12:33:12 Access to resource has been given to client: (3)
+2021/11/16 12:33:12 Client 1 attempts to retrieve the access token 
+2021/11/16 12:33:12 client 1 waits for its turn
+2021/11/16 12:33:12 Client 3 has accessed the resource 
+2021/11/16 12:33:13 Client 3 exits the resource 
+2021/11/16 12:33:13 Access to resource has been given to client: (2)
+2021/11/16 12:33:13 Client 2 has accessed the resource 
+2021/11/16 12:33:13 Client 3 attempts to retrieve the access token 
+2021/11/16 12:33:13 client 3 waits for its turn
+2021/11/16 12:33:14 Client 2 exits the resource 
+2021/11/16 12:33:14 Access to resource has been given to client: (1)
+2021/11/16 12:33:14 Client 2 attempts to retrieve the access token 
+2021/11/16 12:33:14 client 2 waits for its turn
+2021/11/16 12:33:14 Client 1 has accessed the resource 
+2021/11/16 12:33:15 Client 1 exits the resource 
+2021/11/16 12:33:15 Access to resource has been given to client: (3)
+2021/11/16 12:33:15 Client 1 attempts to retrieve the access token 
+2021/11/16 12:33:15 client 1 waits for its turn
+2021/11/16 12:33:15 Client 3 has accessed the resource 
+2021/11/16 12:33:16 Client 3 exits the resource 
+2021/11/16 12:33:16 Access to resource has been given to client: (2)
+2021/11/16 12:33:16 Client 3 attempts to retrieve the access token 
+2021/11/16 12:33:16 client 3 waits for its turn
+2021/11/16 12:33:16 Client 2 has accessed the resource 
+2021/11/16 12:33:17 Client 2 exits the resource 
+2021/11/16 12:33:17 Access to resource has been given to client: (1)
+2021/11/16 12:33:17 Client 2 attempts to retrieve the access token 
+2021/11/16 12:33:17 client 2 waits for its turn
+2021/11/16 12:33:17 Client 1 has accessed the resource 
+2021/11/16 12:33:18 Client 1 exits the resource 
+2021/11/16 12:33:18 Access to resource has been given to client: (3)
+2021/11/16 12:33:18 Client 1 attempts to retrieve the access token 
+2021/11/16 12:33:18 client 1 waits for its turn
+2021/11/16 12:33:18 Client 3 has accessed the resource 
+2021/11/16 12:33:19 Client 3 exits the resource 
+2021/11/16 12:33:19 Access to resource has been given to client: (2)
+2021/11/16 12:33:19 Client 3 attempts to retrieve the access token 
+2021/11/16 12:33:19 client 3 waits for its turn
+2021/11/16 12:33:19 Client 2 has accessed the resource 
+2021/11/16 12:33:20 Client 2 exits the resource 
+2021/11/16 12:33:20 Access to resource has been given to client: (1)
+2021/11/16 12:33:20 Client 2 attempts to retrieve the access token 
+2021/11/16 12:33:20 client 2 waits for its turn
+2021/11/16 12:33:20 Client 1 has accessed the resource 
+2021/11/16 12:33:21 Client 1 exits the resource 
+2021/11/16 12:33:21 Access to resource has been given to client: (3)
+2021/11/16 12:33:21 Client 1 attempts to retrieve the access token 
+2021/11/16 12:33:21 client 1 waits for its turn
+2021/11/16 12:33:21 Client 3 has accessed the resource 
+2021/11/16 12:33:22 Client 3 exits the resource 
+2021/11/16 12:33:22 Access to resource has been given to client: (2)
+2021/11/16 12:33:22 Client 2 has accessed the resource 
+2021/11/16 12:33:22 Client 3 attempts to retrieve the access token 
+2021/11/16 12:33:22 client 3 waits for its turn
+2021/11/16 12:33:23 Client 2 exits the resource 
+2021/11/16 12:33:23 Access to resource has been given to client: (1)
+2021/11/16 12:33:23 Client 2 attempts to retrieve the access token 
+2021/11/16 12:33:23 client 2 waits for its turn
+2021/11/16 12:33:23 Client 1 has accessed the resource 
+2021/11/16 12:33:24 Client 1 exits the resource 
+2021/11/16 12:33:24 Access to resource has been given to client: (3)
+2021/11/16 12:33:24 Client 3 has accessed the resource 
+2021/11/16 12:33:24 Client 1 attempts to retrieve the access token 
+2021/11/16 12:33:24 client 1 waits for its turn
+2021/11/16 12:33:25 Client 3 exits the resource 
+2021/11/16 12:33:25 Access to resource has been given to client: (2)
+2021/11/16 12:33:25 Client 3 attempts to retrieve the access token 
+2021/11/16 12:33:25 client 3 waits for its turn
+2021/11/16 12:33:25 Client 2 has accessed the resource 
+2021/11/16 12:33:26 Client 2 exits the resource 
+2021/11/16 12:33:26 Access to resource has been given to client: (1)
+2021/11/16 12:33:26 Client 2 attempts to retrieve the access token 
+2021/11/16 12:33:26 client 2 waits for its turn
+2021/11/16 12:33:26 Client 1 has accessed the resource 
+2021/11/16 12:33:27 Client 1 exits the resource 
+2021/11/16 12:33:27 Access to resource has been given to client: (3)
+2021/11/16 12:33:27 Client 1 attempts to retrieve the access token 
+2021/11/16 12:33:27 client 1 waits for its turn
+2021/11/16 12:33:27 Client 3 has accessed the resource 
+2021/11/16 12:33:28 Client 3 exits the resource 
+2021/11/16 12:33:28 Access to resource has been given to client: (2)
+2021/11/16 12:33:28 Client 2 has accessed the resource 
+2021/11/16 12:33:28 Client 3 attempts to retrieve the access token 
+2021/11/16 12:33:28 client 3 waits for its turn
+2021/11/16 12:33:29 Client 2 exits the resource 
+2021/11/16 12:33:29 Access to resource has been given to client: (1)
+2021/11/16 12:33:29 Client 1 has accessed the resource 
+2021/11/16 12:33:29 Client 2 attempts to retrieve the access token 
+2021/11/16 12:33:29 client 2 waits for its turn
+2021/11/16 12:33:30 Client 1 exits the resource 
+2021/11/16 12:33:30 Access to resource has been given to client: (3)
+2021/11/16 12:33:30 Client 1 attempts to retrieve the access token 
+2021/11/16 12:33:30 client 1 waits for its turn
+2021/11/16 12:33:30 Client 3 has accessed the resource 
+2021/11/16 12:33:31 Client 3 exits the resource 
+2021/11/16 12:33:31 Access to resource has been given to client: (2)
+2021/11/16 12:33:31 Client 3 attempts to retrieve the access token 
+2021/11/16 12:33:31 client 3 waits for its turn
+2021/11/16 12:33:31 Client 2 has accessed the resource 
+2021/11/16 12:33:32 Client 2 exits the resource 
+2021/11/16 12:33:32 Access to resource has been given to client: (1)
+2021/11/16 12:33:32 Client 1 has accessed the resource 
+2021/11/16 12:33:32 Client 2 attempts to retrieve the access token 
+2021/11/16 12:33:32 client 2 waits for its turn
+2021/11/16 12:33:33 Client 1 exits the resource 
+2021/11/16 12:33:33 Access to resource has been given to client: (3)
+2021/11/16 12:33:33 Client 1 attempts to retrieve the access token 
+2021/11/16 12:33:33 client 1 waits for its turn
+2021/11/16 12:33:33 Client 3 has accessed the resource 
+2021/11/16 12:33:34 Client 3 exits the resource 
+2021/11/16 12:33:34 Access to resource has been given to client: (2)
+2021/11/16 12:33:34 Client 2 has accessed the resource 
+2021/11/16 12:33:34 Client 3 attempts to retrieve the access token 
+2021/11/16 12:33:34 client 3 waits for its turn
+2021/11/16 12:33:35 Client 2 exits the resource 
+2021/11/16 12:33:35 Access to resource has been given to client: (1)
+2021/11/16 12:33:35 Client 1 has accessed the resource 
+2021/11/16 12:33:35 Client 2 attempts to retrieve the access token 
+2021/11/16 12:33:35 client 2 waits for its turn
+2021/11/16 12:33:36 Client 1 exits the resource 
+2021/11/16 12:33:36 Access to resource has been given to client: (3)
+2021/11/16 12:33:36 Client 1 attempts to retrieve the access token 
+2021/11/16 12:33:36 client 1 waits for its turn
+2021/11/16 12:33:36 Client 3 has accessed the resource 
+2021/11/16 12:33:37 Client 3 exits the resource 
+2021/11/16 12:33:37 Access to resource has been given to client: (2)
+2021/11/16 12:33:37 Client 2 has accessed the resource 
+2021/11/16 12:33:37 Client 3 attempts to retrieve the access token 
+2021/11/16 12:33:37 client 3 waits for its turn
+2021/11/16 12:33:38 Client 2 exits the resource 
+2021/11/16 12:33:38 Access to resource has been given to client: (1)
+2021/11/16 12:33:38 Client 1 has accessed the resource 
+2021/11/16 12:33:38 Client 2 attempts to retrieve the access token 
+2021/11/16 12:33:38 client 2 waits for its turn
+2021/11/16 12:33:39 Client 1 exits the resource 
+2021/11/16 12:33:39 Access to resource has been given to client: (3)
+2021/11/16 12:33:39 Client 1 attempts to retrieve the access token 
+2021/11/16 12:33:39 client 1 waits for its turn
+2021/11/16 12:33:39 Client 3 has accessed the resource 
+2021/11/16 12:33:40 Client 3 exits the resource 
+2021/11/16 12:33:40 Access to resource has been given to client: (2)
+2021/11/16 12:33:40 Client 3 attempts to retrieve the access token 
+2021/11/16 12:33:40 client 3 waits for its turn
+2021/11/16 12:33:40 Client 2 has accessed the resource 
+2021/11/16 12:33:41 Client 2 exits the resource 
+2021/11/16 12:33:41 Access to resource has been given to client: (1)
+2021/11/16 12:33:41 Client 1 has accessed the resource 
+2021/11/16 12:33:41 Client 2 attempts to retrieve the access token 
+2021/11/16 12:33:41 client 2 waits for its turn
+2021/11/16 12:33:42 Client 1 exits the resource 
+2021/11/16 12:33:42 Access to resource has been given to client: (3)
+2021/11/16 12:33:42 Client 1 attempts to retrieve the access token 
+2021/11/16 12:33:42 client 1 waits for its turn
+2021/11/16 12:33:42 Client 3 has accessed the resource 
+2021/11/16 12:33:43 Client 3 exits the resource 
+2021/11/16 12:33:43 Access to resource has been given to client: (2)
+2021/11/16 12:33:43 Client 2 has accessed the resource 
+2021/11/16 12:33:43 Client 3 attempts to retrieve the access token 
+2021/11/16 12:33:43 client 3 waits for its turn
+2021/11/16 12:33:44 Client 2 exits the resource 
+2021/11/16 12:33:44 Access to resource has been given to client: (1)
+2021/11/16 12:33:44 Client 1 has accessed the resource 
+2021/11/16 12:33:44 Client 2 attempts to retrieve the access token 
+2021/11/16 12:33:44 client 2 waits for its turn
+2021/11/16 12:33:45 Client 1 exits the resource 
+2021/11/16 12:33:45 Access to resource has been given to client: (3)
+2021/11/16 12:33:45 Client 3 has accessed the resource 
+2021/11/16 12:33:45 Client 1 attempts to retrieve the access token 
+2021/11/16 12:33:45 client 1 waits for its turn
+2021/11/16 12:33:46 Client 3 exits the resource 
+2021/11/16 12:33:46 Access to resource has been given to client: (2)
+2021/11/16 12:33:46 Client 2 has accessed the resource 
+2021/11/16 12:33:46 Client 3 attempts to retrieve the access token 
+2021/11/16 12:33:46 client 3 waits for its turn
+2021/11/16 12:33:47 Client 2 exits the resource 
+2021/11/16 12:33:47 Access to resource has been given to client: (1)
+2021/11/16 12:33:47 Client 2 attempts to retrieve the access token 
+2021/11/16 12:33:47 client 2 waits for its turn
+2021/11/16 12:33:47 Client 1 has accessed the resource 
+2021/11/16 12:33:48 Client 1 exits the resource 
+2021/11/16 12:33:48 Access to resource has been given to client: (3)
+2021/11/16 12:33:48 Client 1 attempts to retrieve the access token 
+2021/11/16 12:33:48 client 1 waits for its turn
+2021/11/16 12:33:48 Client 3 has accessed the resource 
+2021/11/16 12:33:49 Client 3 exits the resource 
+2021/11/16 12:33:49 Access to resource has been given to client: (2)
+2021/11/16 12:33:49 Client 2 has accessed the resource 
+2021/11/16 12:33:49 Client 3 attempts to retrieve the access token 
+2021/11/16 12:33:49 client 3 waits for its turn
+2021/11/16 12:33:50 Client 2 exits the resource 
+2021/11/16 12:33:50 Access to resource has been given to client: (1)
+2021/11/16 12:33:50 Client 1 has accessed the resource 
+2021/11/16 12:33:50 Client 2 attempts to retrieve the access token 
+2021/11/16 12:33:50 client 2 waits for its turn
+2021/11/16 12:33:51 Client 1 exits the resource 
+2021/11/16 12:33:51 Access to resource has been given to client: (3)
+2021/11/16 12:33:51 Client 1 attempts to retrieve the access token 
+2021/11/16 12:33:51 client 1 waits for its turn
+2021/11/16 12:33:51 Client 3 has accessed the resource 
+2021/11/16 12:33:52 Client 3 exits the resource 
+2021/11/16 12:33:52 Access to resource has been given to client: (2)
+2021/11/16 12:33:52 Client 3 attempts to retrieve the access token 
+2021/11/16 12:33:52 client 3 waits for its turn
+2021/11/16 12:33:52 Client 2 has accessed the resource 
+2021/11/16 12:33:53 Client 2 exits the resource 
+2021/11/16 12:33:53 Access to resource has been given to client: (1)
+2021/11/16 12:33:53 Client 2 attempts to retrieve the access token 
+2021/11/16 12:33:53 client 2 waits for its turn
+2021/11/16 12:33:53 Client 1 has accessed the resource 
+2021/11/16 12:33:54 Client 1 exits the resource 
+2021/11/16 12:33:54 Access to resource has been given to client: (3)
+2021/11/16 12:33:54 Client 3 has accessed the resource 
+2021/11/16 12:33:54 Client 1 attempts to retrieve the access token 
+2021/11/16 12:33:54 client 1 waits for its turn
+2021/11/16 12:33:55 Client 3 exits the resource 
+2021/11/16 12:33:55 Access to resource has been given to client: (2)
+2021/11/16 12:33:55 Client 2 has accessed the resource 
+2021/11/16 12:33:55 Client 3 attempts to retrieve the access token 
+2021/11/16 12:33:55 client 3 waits for its turn
+2021/11/16 12:33:56 Client 2 exits the resource 
+2021/11/16 12:33:56 Access to resource has been given to client: (1)
+2021/11/16 12:33:56 Client 1 has accessed the resource 
+2021/11/16 12:33:56 Client 2 attempts to retrieve the access token 
+2021/11/16 12:33:56 client 2 waits for its turn
+2021/11/16 12:33:57 Client 1 exits the resource 
+2021/11/16 12:33:57 Access to resource has been given to client: (3)
+2021/11/16 12:33:57 Client 1 attempts to retrieve the access token 
+2021/11/16 12:33:57 client 1 waits for its turn
+2021/11/16 12:33:57 Client 3 has accessed the resource 
+2021/11/16 12:33:58 Client 3 exits the resource 
+2021/11/16 12:33:58 Access to resource has been given to client: (2)
+2021/11/16 12:33:58 Client 2 has accessed the resource 
+2021/11/16 12:33:58 Client 3 attempts to retrieve the access token 
+2021/11/16 12:33:58 client 3 waits for its turn
+2021/11/16 12:33:59 Client 2 exits the resource 
+2021/11/16 12:33:59 Access to resource has been given to client: (1)
+2021/11/16 12:33:59 Client 2 attempts to retrieve the access token 
+2021/11/16 12:33:59 client 2 waits for its turn
+2021/11/16 12:33:59 Client 1 has accessed the resource 
+2021/11/16 12:34:00 Client 1 exits the resource 
+2021/11/16 12:34:00 Access to resource has been given to client: (3)
+2021/11/16 12:34:00 Client 1 attempts to retrieve the access token 
+2021/11/16 12:34:00 client 1 waits for its turn
+2021/11/16 12:34:00 Client 3 has accessed the resource 
+2021/11/16 12:34:01 Client 3 exits the resource 
+2021/11/16 12:34:01 Access to resource has been given to client: (2)
+2021/11/16 12:34:01 Client 3 attempts to retrieve the access token 
+2021/11/16 12:34:01 client 3 waits for its turn
+2021/11/16 12:34:01 Client 2 has accessed the resource 
+2021/11/16 12:34:02 Client 2 exits the resource 
+2021/11/16 12:34:02 Access to resource has been given to client: (1)
+2021/11/16 12:34:02 Client 1 has accessed the resource 
+2021/11/16 12:34:02 Client 2 attempts to retrieve the access token 
+2021/11/16 12:34:02 client 2 waits for its turn
+2021/11/16 12:34:03 Client 1 exits the resource 
+2021/11/16 12:34:03 Access to resource has been given to client: (3)
+2021/11/16 12:34:03 Client 3 has accessed the resource 
+2021/11/16 12:34:03 Client 1 attempts to retrieve the access token 
+2021/11/16 12:34:03 client 1 waits for its turn
+2021/11/16 12:34:04 Client 3 exits the resource 
+2021/11/16 12:34:04 Access to resource has been given to client: (2)
+2021/11/16 12:34:04 Client 3 attempts to retrieve the access token 
+2021/11/16 12:34:04 Client 2 has accessed the resource 
+2021/11/16 12:34:04 client 3 waits for its turn
+2021/11/16 12:34:05 Client 2 exits the resource 
+2021/11/16 12:34:05 Access to resource has been given to client: (1)
+2021/11/16 12:34:05 Client 1 has accessed the resource 
+2021/11/16 12:34:05 Client 2 attempts to retrieve the access token 
+2021/11/16 12:34:05 client 2 waits for its turn
+2021/11/16 12:34:06 Client 1 exits the resource 
+2021/11/16 12:34:06 Access to resource has been given to client: (3)
+2021/11/16 12:34:06 Client 1 attempts to retrieve the access token 
+2021/11/16 12:34:06 client 1 waits for its turn
+2021/11/16 12:34:06 Client 3 has accessed the resource 
+2021/11/16 12:34:07 Client 3 exits the resource 
+2021/11/16 12:34:07 Access to resource has been given to client: (2)
+2021/11/16 12:34:07 Client 3 attempts to retrieve the access token 
+2021/11/16 12:34:07 client 3 waits for its turn
+2021/11/16 12:34:07 Client 2 has accessed the resource 
+2021/11/16 12:34:08 Client 2 exits the resource 
+2021/11/16 12:34:08 Access to resource has been given to client: (1)
+2021/11/16 12:34:08 Client 2 attempts to retrieve the access token 
+2021/11/16 12:34:08 client 2 waits for its turn
+2021/11/16 12:34:08 Client 1 has accessed the resource 
+2021/11/16 12:34:09 Client 1 exits the resource 
+2021/11/16 12:34:09 Access to resource has been given to client: (3)
+2021/11/16 12:34:09 Client 1 attempts to retrieve the access token 
+2021/11/16 12:34:09 client 1 waits for its turn
+2021/11/16 12:34:09 Client 3 has accessed the resource 
+2021/11/16 12:34:10 Client 3 exits the resource 
+2021/11/16 12:34:10 Access to resource has been given to client: (2)
+2021/11/16 12:34:10 Client 3 attempts to retrieve the access token 
+2021/11/16 12:34:10 client 3 waits for its turn
+2021/11/16 12:34:10 Client 2 has accessed the resource 
+2021/11/16 12:34:11 Client 2 exits the resource 
+2021/11/16 12:34:11 Access to resource has been given to client: (1)
+2021/11/16 12:34:11 Client 2 attempts to retrieve the access token 
+2021/11/16 12:34:11 client 2 waits for its turn
+2021/11/16 12:34:11 Client 1 has accessed the resource 
+2021/11/16 12:34:12 Client 1 exits the resource 
+2021/11/16 12:34:12 Access to resource has been given to client: (3)
+2021/11/16 12:34:12 Client 3 has accessed the resource 
+2021/11/16 12:34:12 Client 1 attempts to retrieve the access token 
+2021/11/16 12:34:12 client 1 waits for its turn
+2021/11/16 12:34:13 Client 3 exits the resource 
+2021/11/16 12:34:13 Access to resource has been given to client: (2)
+2021/11/16 12:34:13 Client 2 has accessed the resource 
+2021/11/16 12:34:13 Client 3 attempts to retrieve the access token 
+2021/11/16 12:34:13 client 3 waits for its turn
+2021/11/16 12:34:14 Client 2 exits the resource 
+2021/11/16 12:34:14 Access to resource has been given to client: (1)
+2021/11/16 12:34:14 Client 2 attempts to retrieve the access token 
+2021/11/16 12:34:14 client 2 waits for its turn
+2021/11/16 12:34:14 Client 1 has accessed the resource 
+2021/11/16 12:34:15 Client 1 exits the resource 
+2021/11/16 12:34:15 Access to resource has been given to client: (3)
+2021/11/16 12:34:15 Client 1 attempts to retrieve the access token 
+2021/11/16 12:34:15 client 1 waits for its turn
+2021/11/16 12:34:15 Client 3 has accessed the resource 
+2021/11/16 12:34:16 Client 3 exits the resource 
+2021/11/16 12:34:16 Access to resource has been given to client: (2)
+2021/11/16 12:34:16 Client 3 attempts to retrieve the access token 
+2021/11/16 12:34:16 Client 2 has accessed the resource 
+2021/11/16 12:34:16 client 3 waits for its turn
+2021/11/16 12:34:17 Client 2 exits the resource 
+2021/11/16 12:34:17 Access to resource has been given to client: (1)
+2021/11/16 12:34:17 Client 1 has accessed the resource 
+2021/11/16 12:34:17 Client 2 attempts to retrieve the access token 
+2021/11/16 12:34:17 client 2 waits for its turn
+2021/11/16 12:34:18 Client 1 exits the resource 
+2021/11/16 12:34:18 Access to resource has been given to client: (3)
+2021/11/16 12:34:18 Client 1 attempts to retrieve the access token 
+2021/11/16 12:34:18 client 1 waits for its turn
+2021/11/16 12:34:18 Client 3 has accessed the resource 
+2021/11/16 12:34:19 Client 3 exits the resource 
+2021/11/16 12:34:19 Access to resource has been given to client: (2)
+2021/11/16 12:34:19 Client 2 has accessed the resource 
+2021/11/16 12:34:19 Client 3 attempts to retrieve the access token 
+2021/11/16 12:34:19 client 3 waits for its turn
+2021/11/16 12:34:21 Client 2 exits the resource 
+2021/11/16 12:34:21 Access to resource has been given to client: (1)
+2021/11/16 12:34:21 Client 1 has accessed the resource 
+2021/11/16 12:34:21 Client 2 attempts to retrieve the access token 
+2021/11/16 12:34:21 client 2 waits for its turn
+2021/11/16 12:34:22 Client 1 exits the resource 
+2021/11/16 12:34:22 Access to resource has been given to client: (3)
+2021/11/16 12:34:22 Client 1 attempts to retrieve the access token 
+2021/11/16 12:34:22 client 1 waits for its turn
+2021/11/16 12:34:22 Client 3 has accessed the resource 
+2021/11/16 12:34:23 Client 3 exits the resource 
+2021/11/16 12:34:23 Access to resource has been given to client: (2)
+2021/11/16 12:34:23 Client 3 attempts to retrieve the access token 
+2021/11/16 12:34:23 client 3 waits for its turn
+2021/11/16 12:34:23 Client 2 has accessed the resource 
+2021/11/16 12:34:24 Client 2 exits the resource 
+2021/11/16 12:34:24 Access to resource has been given to client: (1)
+2021/11/16 12:34:24 Client 1 has accessed the resource 
+2021/11/16 12:34:24 Client 2 attempts to retrieve the access token 
+2021/11/16 12:34:24 client 2 waits for its turn
+2021/11/16 12:34:25 Client 1 exits the resource 
+2021/11/16 12:34:25 Access to resource has been given to client: (3)
+2021/11/16 12:34:25 Client 3 has accessed the resource 
+2021/11/16 12:34:25 Client 1 attempts to retrieve the access token 
+2021/11/16 12:34:25 client 1 waits for its turn
+2021/11/16 12:34:26 Client 3 exits the resource 
+2021/11/16 12:34:26 Access to resource has been given to client: (2)
+2021/11/16 12:34:26 Client 2 has accessed the resource 
+2021/11/16 12:34:26 Client 3 attempts to retrieve the access token 
+2021/11/16 12:34:26 client 3 waits for its turn
+2021/11/16 12:34:27 Client 2 exits the resource 
+2021/11/16 12:34:27 Access to resource has been given to client: (1)
+2021/11/16 12:34:27 Client 1 has accessed the resource 
+2021/11/16 12:34:27 Client 2 attempts to retrieve the access token 
+2021/11/16 12:34:27 client 2 waits for its turn
+2021/11/16 12:34:28 Client 1 exits the resource 
+2021/11/16 12:34:28 Access to resource has been given to client: (3)
+2021/11/16 12:34:28 Client 3 has accessed the resource 
+2021/11/16 12:34:28 Client 1 attempts to retrieve the access token 
+2021/11/16 12:34:28 client 1 waits for its turn
+2021/11/16 12:34:29 Client 3 exits the resource 
+2021/11/16 12:34:29 Access to resource has been given to client: (2)
+2021/11/16 12:34:29 Client 2 has accessed the resource 
+2021/11/16 12:34:29 Client 3 attempts to retrieve the access token 
+2021/11/16 12:34:29 client 3 waits for its turn
+2021/11/16 12:34:30 Client 2 exits the resource 
+2021/11/16 12:34:30 Access to resource has been given to client: (1)
+2021/11/16 12:34:30 Client 2 attempts to retrieve the access token 
+2021/11/16 12:34:30 client 2 waits for its turn
+2021/11/16 12:34:30 Client 1 has accessed the resource 
+2021/11/16 12:34:31 Client 1 exits the resource 
+2021/11/16 12:34:31 Access to resource has been given to client: (3)
+2021/11/16 12:34:31 Client 3 has accessed the resource 
+2021/11/16 12:34:31 Client 1 attempts to retrieve the access token 
+2021/11/16 12:34:31 client 1 waits for its turn
+2021/11/16 12:34:32 Client 3 exits the resource 
+2021/11/16 12:34:32 Access to resource has been given to client: (2)
+2021/11/16 12:34:32 Client 2 has accessed the resource 
+2021/11/16 12:34:32 Client 3 attempts to retrieve the access token 
+2021/11/16 12:34:32 client 3 waits for its turn
+2021/11/16 12:34:33 Client 2 exits the resource 
+2021/11/16 12:34:33 Access to resource has been given to client: (1)
+2021/11/16 12:34:33 Client 2 attempts to retrieve the access token 
+2021/11/16 12:34:33 client 2 waits for its turn
+2021/11/16 12:34:33 Client 1 has accessed the resource 
+2021/11/16 12:34:34 Client 1 exits the resource 
+2021/11/16 12:34:34 Access to resource has been given to client: (3)
+2021/11/16 12:34:34 Client 1 attempts to retrieve the access token 
+2021/11/16 12:34:34 client 1 waits for its turn
+2021/11/16 12:34:34 Client 3 has accessed the resource 
+2021/11/16 12:34:35 Client 3 exits the resource 
+2021/11/16 12:34:35 Access to resource has been given to client: (2)
+2021/11/16 12:34:35 Client 2 has accessed the resource 
+2021/11/16 12:34:35 Client 3 attempts to retrieve the access token 
+2021/11/16 12:34:35 client 3 waits for its turn
+2021/11/16 12:34:36 Client 2 exits the resource 
+2021/11/16 12:34:36 Access to resource has been given to client: (1)
+2021/11/16 12:34:36 Client 2 attempts to retrieve the access token 
+2021/11/16 12:34:36 client 2 waits for its turn
+2021/11/16 12:34:36 Client 1 has accessed the resource 
+2021/11/16 12:34:37 Client 1 exits the resource 
+2021/11/16 12:34:37 Access to resource has been given to client: (3)
+2021/11/16 12:34:37 Client 3 has accessed the resource 
+2021/11/16 12:34:37 Client 1 attempts to retrieve the access token 
+2021/11/16 12:34:37 client 1 waits for its turn
+2021/11/16 12:34:38 Client 3 exits the resource 
+2021/11/16 12:34:38 Access to resource has been given to client: (2)
+2021/11/16 12:34:38 Client 3 attempts to retrieve the access token 
+2021/11/16 12:34:38 client 3 waits for its turn
+2021/11/16 12:34:38 Client 2 has accessed the resource 
+2021/11/16 12:34:39 Client 2 exits the resource 
+2021/11/16 12:34:39 Access to resource has been given to client: (1)
+2021/11/16 12:34:39 Client 2 attempts to retrieve the access token 
+2021/11/16 12:34:39 client 2 waits for its turn
+2021/11/16 12:34:39 Client 1 has accessed the resource 
+2021/11/16 12:34:40 Client 1 exits the resource 
+2021/11/16 12:34:40 Access to resource has been given to client: (3)
+2021/11/16 12:34:40 Client 3 has accessed the resource 
+2021/11/16 12:34:40 Client 1 attempts to retrieve the access token 
+2021/11/16 12:34:40 client 1 waits for its turn
+2021/11/16 12:34:41 Client 3 exits the resource 
+2021/11/16 12:34:41 Access to resource has been given to client: (2)
+2021/11/16 12:34:41 Client 3 attempts to retrieve the access token 
+2021/11/16 12:34:41 client 3 waits for its turn
+2021/11/16 12:34:41 Client 2 has accessed the resource 
+2021/11/16 12:34:42 Client 2 exits the resource 
+2021/11/16 12:34:42 Access to resource has been given to client: (1)
+2021/11/16 12:34:42 Client 2 attempts to retrieve the access token 
+2021/11/16 12:34:42 client 2 waits for its turn
+2021/11/16 12:34:42 Client 1 has accessed the resource 
+2021/11/16 12:34:43 Client 1 exits the resource 
+2021/11/16 12:34:43 Access to resource has been given to client: (3)
+2021/11/16 12:34:43 Client 3 has accessed the resource 
+2021/11/16 12:34:43 Client 1 attempts to retrieve the access token 
+2021/11/16 12:34:43 client 1 waits for its turn
+2021/11/16 12:34:44 Client 3 exits the resource 
+2021/11/16 12:34:44 Access to resource has been given to client: (2)
+2021/11/16 12:34:44 Client 3 attempts to retrieve the access token 
+2021/11/16 12:34:44 client 3 waits for its turn
+2021/11/16 12:34:44 Client 2 has accessed the resource 
+2021/11/16 12:34:45 Client 2 exits the resource 
+2021/11/16 12:34:45 Access to resource has been given to client: (1)
+2021/11/16 12:34:45 Client 2 attempts to retrieve the access token 
+2021/11/16 12:34:45 client 2 waits for its turn
+2021/11/16 12:34:45 Client 1 has accessed the resource 
+2021/11/16 12:34:46 Client 1 exits the resource 
+2021/11/16 12:34:46 Access to resource has been given to client: (3)
+2021/11/16 12:34:46 Client 1 attempts to retrieve the access token 
+2021/11/16 12:34:46 client 1 waits for its turn
+2021/11/16 12:34:46 Client 3 has accessed the resource 
+2021/11/16 12:34:47 Client 3 exits the resource 
+2021/11/16 12:34:47 Access to resource has been given to client: (2)
+2021/11/16 12:34:47 Client 3 attempts to retrieve the access token 
+2021/11/16 12:34:47 client 3 waits for its turn
+2021/11/16 12:34:47 Client 2 has accessed the resource 
+2021/11/16 12:34:48 Client 2 exits the resource 
+2021/11/16 12:34:48 Access to resource has been given to client: (1)
+2021/11/16 12:34:48 Client 1 has accessed the resource 
+2021/11/16 12:34:48 Client 2 attempts to retrieve the access token 
+2021/11/16 12:34:48 client 2 waits for its turn
+2021/11/16 12:34:49 Client 1 exits the resource 
+2021/11/16 12:34:49 Access to resource has been given to client: (3)
+2021/11/16 12:34:49 Client 1 attempts to retrieve the access token 
+2021/11/16 12:34:49 client 1 waits for its turn
+2021/11/16 12:34:49 Client 3 has accessed the resource 
+2021/11/16 12:34:50 Client 3 exits the resource 
+2021/11/16 12:34:50 Access to resource has been given to client: (2)
+2021/11/16 12:34:50 Client 3 attempts to retrieve the access token 
+2021/11/16 12:34:50 client 3 waits for its turn
+2021/11/16 12:34:50 Client 2 has accessed the resource 
+2021/11/16 12:34:51 Client 2 exits the resource 
+2021/11/16 12:34:51 Access to resource has been given to client: (1)
+2021/11/16 12:34:51 Client 2 attempts to retrieve the access token 
+2021/11/16 12:34:51 client 2 waits for its turn
+2021/11/16 12:34:51 Client 1 has accessed the resource 
+2021/11/16 12:34:52 Client 1 exits the resource 
+2021/11/16 12:34:52 Access to resource has been given to client: (3)
+2021/11/16 12:34:52 Client 3 has accessed the resource 
+2021/11/16 12:34:52 Client 1 attempts to retrieve the access token 
+2021/11/16 12:34:52 client 1 waits for its turn
+2021/11/16 12:34:53 Client 3 exits the resource 
+2021/11/16 12:34:53 Access to resource has been given to client: (2)
+2021/11/16 12:34:53 Client 3 attempts to retrieve the access token 
+2021/11/16 12:34:53 client 3 waits for its turn
+2021/11/16 12:34:53 Client 2 has accessed the resource 
+2021/11/16 12:34:54 Client 2 exits the resource 
+2021/11/16 12:34:54 Access to resource has been given to client: (1)
+2021/11/16 12:34:54 Client 2 attempts to retrieve the access token 
+2021/11/16 12:34:54 client 2 waits for its turn
+2021/11/16 12:34:54 Client 1 has accessed the resource 
+2021/11/16 12:34:55 Client 1 exits the resource 
+2021/11/16 12:34:55 Access to resource has been given to client: (3)
+2021/11/16 12:34:55 Client 3 has accessed the resource 
+2021/11/16 12:34:55 Client 1 attempts to retrieve the access token 
+2021/11/16 12:34:55 client 1 waits for its turn
+2021/11/16 12:34:56 Client 3 exits the resource 
+2021/11/16 12:34:56 Access to resource has been given to client: (2)
+2021/11/16 12:34:56 Client 2 has accessed the resource 
+2021/11/16 12:34:56 Client 3 attempts to retrieve the access token 
+2021/11/16 12:34:56 client 3 waits for its turn
+2021/11/16 12:34:57 Client 2 exits the resource 
+2021/11/16 12:34:57 Access to resource has been given to client: (1)
+2021/11/16 12:34:57 Client 2 attempts to retrieve the access token 
+2021/11/16 12:34:57 client 2 waits for its turn
+2021/11/16 12:34:57 Client 1 has accessed the resource 
+2021/11/16 12:34:58 Client 1 exits the resource 
+2021/11/16 12:34:58 Access to resource has been given to client: (3)
+2021/11/16 12:34:58 Client 1 attempts to retrieve the access token 
+2021/11/16 12:34:58 client 1 waits for its turn
+2021/11/16 12:34:58 Client 3 has accessed the resource 
+2021/11/16 12:34:59 Client 3 exits the resource 
+2021/11/16 12:34:59 Access to resource has been given to client: (2)
+2021/11/16 12:34:59 Client 3 attempts to retrieve the access token 
+2021/11/16 12:34:59 client 3 waits for its turn
+2021/11/16 12:34:59 Client 2 has accessed the resource 
+2021/11/16 12:35:00 Client 2 exits the resource 
+2021/11/16 12:35:00 Access to resource has been given to client: (1)
+2021/11/16 12:35:00 Client 1 has accessed the resource 
+2021/11/16 12:35:00 Client 2 attempts to retrieve the access token 
+2021/11/16 12:35:00 client 2 waits for its turn
+2021/11/16 12:35:01 Client 1 exits the resource 
+2021/11/16 12:35:01 Access to resource has been given to client: (3)
+2021/11/16 12:35:01 Client 1 attempts to retrieve the access token 
+2021/11/16 12:35:01 client 1 waits for its turn
+2021/11/16 12:35:01 Client 3 has accessed the resource 
+2021/11/16 12:35:02 Client 3 exits the resource 
+2021/11/16 12:35:02 Access to resource has been given to client: (2)
+2021/11/16 12:35:02 Client 3 attempts to retrieve the access token 
+2021/11/16 12:35:02 client 3 waits for its turn
+2021/11/16 12:35:02 Client 2 has accessed the resource 
+2021/11/16 12:35:03 Client 2 exits the resource 
+2021/11/16 12:35:03 Access to resource has been given to client: (1)
+2021/11/16 12:35:03 Client 1 has accessed the resource 
+2021/11/16 12:35:03 Client 2 attempts to retrieve the access token 
+2021/11/16 12:35:03 client 2 waits for its turn
+2021/11/16 12:35:04 Client 1 exits the resource 
+2021/11/16 12:35:04 Access to resource has been given to client: (3)
+2021/11/16 12:35:04 Client 3 has accessed the resource 
+2021/11/16 12:35:04 Client 1 attempts to retrieve the access token 
+2021/11/16 12:35:04 client 1 waits for its turn
+2021/11/16 12:35:05 Client 3 exits the resource 
+2021/11/16 12:35:05 Access to resource has been given to client: (2)
+2021/11/16 12:35:05 Client 2 has accessed the resource 
+2021/11/16 12:35:05 Client 3 attempts to retrieve the access token 
+2021/11/16 12:35:05 client 3 waits for its turn
+2021/11/16 12:35:06 Client 2 exits the resource 
+2021/11/16 12:35:06 Access to resource has been given to client: (1)
+2021/11/16 12:35:06 Client 2 attempts to retrieve the access token 
+2021/11/16 12:35:06 client 2 waits for its turn
+2021/11/16 12:35:06 Client 1 has accessed the resource 
+2021/11/16 12:35:07 Client 1 exits the resource 
+2021/11/16 12:35:07 Access to resource has been given to client: (3)
+2021/11/16 12:35:07 Client 3 has accessed the resource 
+2021/11/16 12:35:07 Client 1 attempts to retrieve the access token 
+2021/11/16 12:35:07 client 1 waits for its turn
+2021/11/16 12:35:08 Client 3 exits the resource 
+2021/11/16 12:35:08 Access to resource has been given to client: (2)
+2021/11/16 12:35:08 Client 3 attempts to retrieve the access token 
+2021/11/16 12:35:08 client 3 waits for its turn
+2021/11/16 12:35:08 Client 2 has accessed the resource 
+2021/11/16 12:35:09 Client 2 exits the resource 
+2021/11/16 12:35:09 Access to resource has been given to client: (1)
+2021/11/16 12:35:09 Client 1 has accessed the resource 
+2021/11/16 12:35:09 Client 2 attempts to retrieve the access token 
+2021/11/16 12:35:09 client 2 waits for its turn
+2021/11/16 12:35:10 Client 1 exits the resource 
+2021/11/16 12:35:10 Access to resource has been given to client: (3)
+2021/11/16 12:35:10 Client 1 attempts to retrieve the access token 
+2021/11/16 12:35:10 client 1 waits for its turn
+2021/11/16 12:35:10 Client 3 has accessed the resource 
+2021/11/16 12:35:11 Client 3 exits the resource 
+2021/11/16 12:35:11 Access to resource has been given to client: (2)
+2021/11/16 12:35:11 Client 2 has accessed the resource 
+2021/11/16 12:35:11 Client 3 attempts to retrieve the access token 
+2021/11/16 12:35:11 client 3 waits for its turn
+2021/11/16 12:35:12 Client 2 exits the resource 
+2021/11/16 12:35:12 Access to resource has been given to client: (1)
+2021/11/16 12:35:12 Client 1 has accessed the resource 
+2021/11/16 12:35:12 Client 2 attempts to retrieve the access token 
+2021/11/16 12:35:12 client 2 waits for its turn
+2021/11/16 12:35:13 Client 1 exits the resource 
+2021/11/16 12:35:13 Access to resource has been given to client: (3)
+2021/11/16 12:35:13 Client 3 has accessed the resource 
+2021/11/16 12:35:13 Client 1 attempts to retrieve the access token 
+2021/11/16 12:35:13 client 1 waits for its turn
+2021/11/16 12:35:14 Client 3 exits the resource 
+2021/11/16 12:35:14 Access to resource has been given to client: (2)
+2021/11/16 12:35:14 Client 2 has accessed the resource 
+2021/11/16 12:35:14 Client 3 attempts to retrieve the access token 
+2021/11/16 12:35:14 client 3 waits for its turn
+2021/11/16 12:35:15 Client 2 exits the resource 
+2021/11/16 12:35:15 Access to resource has been given to client: (1)
+2021/11/16 12:35:15 Client 2 attempts to retrieve the access token 
+2021/11/16 12:35:15 Client 1 has accessed the resource 
+2021/11/16 12:35:15 client 2 waits for its turn
+2021/11/16 12:35:16 Client 1 exits the resource 
+2021/11/16 12:35:16 Access to resource has been given to client: (3)
+2021/11/16 12:35:16 Client 1 attempts to retrieve the access token 
+2021/11/16 12:35:16 client 1 waits for its turn
+2021/11/16 12:35:16 Client 3 has accessed the resource 
+2021/11/16 12:35:17 Client 3 exits the resource 
+2021/11/16 12:35:17 Access to resource has been given to client: (2)
+2021/11/16 12:35:17 Client 3 attempts to retrieve the access token 
+2021/11/16 12:35:17 client 3 waits for its turn
+2021/11/16 12:35:17 Client 2 has accessed the resource 
+2021/11/16 12:35:18 Client 2 exits the resource 
+2021/11/16 12:35:18 Access to resource has been given to client: (1)
+2021/11/16 12:35:18 Client 1 has accessed the resource 
+2021/11/16 12:35:18 Client 2 attempts to retrieve the access token 
+2021/11/16 12:35:18 client 2 waits for its turn
+2021/11/16 12:35:19 Client 1 exits the resource 
+2021/11/16 12:35:19 Access to resource has been given to client: (3)
+2021/11/16 12:35:19 Client 3 has accessed the resource 
+2021/11/16 12:35:19 Client 1 attempts to retrieve the access token 
+2021/11/16 12:35:19 client 1 waits for its turn
+2021/11/16 12:35:20 Client 3 exits the resource 
+2021/11/16 12:35:20 Access to resource has been given to client: (2)
+2021/11/16 12:35:20 Client 2 has accessed the resource 
+2021/11/16 12:35:20 Client 3 attempts to retrieve the access token 
+2021/11/16 12:35:20 client 3 waits for its turn
+2021/11/16 12:35:21 Client 2 exits the resource 
+2021/11/16 12:35:21 Access to resource has been given to client: (1)
+2021/11/16 12:35:21 Client 1 has accessed the resource 
+2021/11/16 12:35:21 Client 2 attempts to retrieve the access token 
+2021/11/16 12:35:21 client 2 waits for its turn
+2021/11/16 12:35:22 Client 1 exits the resource 
+2021/11/16 12:35:22 Access to resource has been given to client: (3)
+2021/11/16 12:35:22 Client 3 has accessed the resource 
+2021/11/16 12:35:22 Client 1 attempts to retrieve the access token 
+2021/11/16 12:35:22 client 1 waits for its turn
+2021/11/16 12:35:23 Client 3 exits the resource 
+2021/11/16 12:35:23 Access to resource has been given to client: (2)
+2021/11/16 12:35:23 Client 3 attempts to retrieve the access token 
+2021/11/16 12:35:23 client 3 waits for its turn
+2021/11/16 12:35:23 Client 2 has accessed the resource 
+2021/11/16 12:35:24 Client 2 exits the resource 
+2021/11/16 12:35:24 Access to resource has been given to client: (1)
+2021/11/16 12:35:24 Client 2 attempts to retrieve the access token 
+2021/11/16 12:35:24 client 2 waits for its turn
+2021/11/16 12:35:24 Client 1 has accessed the resource 
+2021/11/16 12:35:25 Client 1 exits the resource 
+2021/11/16 12:35:25 Access to resource has been given to client: (3)
+2021/11/16 12:35:25 Client 1 attempts to retrieve the access token 
+2021/11/16 12:35:25 Client 3 has accessed the resource 
+2021/11/16 12:35:25 client 1 waits for its turn
+2021/11/16 12:35:26 Client 3 exits the resource 
+2021/11/16 12:35:26 Access to resource has been given to client: (2)
+2021/11/16 12:35:26 Client 2 has accessed the resource 
+2021/11/16 12:35:26 Client 3 attempts to retrieve the access token 
+2021/11/16 12:35:26 client 3 waits for its turn
+2021/11/16 12:35:27 Client 2 exits the resource 
+2021/11/16 12:35:27 Access to resource has been given to client: (1)
+2021/11/16 12:35:27 Client 1 has accessed the resource 
+2021/11/16 12:35:27 Client 2 attempts to retrieve the access token 
+2021/11/16 12:35:27 client 2 waits for its turn
+2021/11/16 12:35:28 Client 1 exits the resource 
+2021/11/16 12:35:28 Access to resource has been given to client: (3)
+2021/11/16 12:35:28 Client 3 has accessed the resource 
+2021/11/16 12:35:28 Client 1 attempts to retrieve the access token 
+2021/11/16 12:35:28 client 1 waits for its turn
+2021/11/16 12:35:29 Client 3 exits the resource 
+2021/11/16 12:35:29 Access to resource has been given to client: (2)
+2021/11/16 12:35:29 Client 3 attempts to retrieve the access token 
+2021/11/16 12:35:29 client 3 waits for its turn
+2021/11/16 12:35:29 Client 2 has accessed the resource 
+2021/11/16 12:35:30 Client 2 exits the resource 
+2021/11/16 12:35:30 Access to resource has been given to client: (1)
+2021/11/16 12:35:30 Client 2 attempts to retrieve the access token 
+2021/11/16 12:35:30 client 2 waits for its turn
+2021/11/16 12:35:30 Client 1 has accessed the resource 
+2021/11/16 12:35:31 Client 1 exits the resource 
+2021/11/16 12:35:31 Access to resource has been given to client: (3)
+2021/11/16 12:35:31 Client 3 has accessed the resource 
+2021/11/16 12:35:31 Client 1 attempts to retrieve the access token 
+2021/11/16 12:35:31 client 1 waits for its turn
+2021/11/16 12:35:32 Client 3 exits the resource 
+2021/11/16 12:35:32 Access to resource has been given to client: (2)
+2021/11/16 12:35:32 Client 2 has accessed the resource 
+2021/11/16 12:35:32 Client 3 attempts to retrieve the access token 
+2021/11/16 12:35:32 client 3 waits for its turn
+2021/11/16 12:35:33 Client 2 exits the resource 
+2021/11/16 12:35:33 Access to resource has been given to client: (1)
+2021/11/16 12:35:33 Client 2 attempts to retrieve the access token 
+2021/11/16 12:35:33 client 2 waits for its turn
+2021/11/16 12:35:33 Client 1 has accessed the resource 
+2021/11/16 12:35:34 Client 1 exits the resource 
+2021/11/16 12:35:34 Access to resource has been given to client: (3)
+2021/11/16 12:35:34 Client 3 has accessed the resource 
+2021/11/16 12:35:34 Client 1 attempts to retrieve the access token 
+2021/11/16 12:35:34 client 1 waits for its turn
+2021/11/16 12:35:35 Client 3 exits the resource 
+2021/11/16 12:35:35 Access to resource has been given to client: (2)
+2021/11/16 12:35:35 Client 3 attempts to retrieve the access token 
+2021/11/16 12:35:35 client 3 waits for its turn
+2021/11/16 12:35:35 Client 2 has accessed the resource 
+2021/11/16 12:35:36 Client 2 exits the resource 
+2021/11/16 12:35:36 Access to resource has been given to client: (1)
+2021/11/16 12:35:36 Client 1 has accessed the resource 
+2021/11/16 12:35:36 Client 2 attempts to retrieve the access token 
+2021/11/16 12:35:36 client 2 waits for its turn
+2021/11/16 12:35:37 Client 1 exits the resource 
+2021/11/16 12:35:37 Access to resource has been given to client: (3)
+2021/11/16 12:35:37 Client 1 attempts to retrieve the access token 
+2021/11/16 12:35:37 client 1 waits for its turn
+2021/11/16 12:35:37 Client 3 has accessed the resource 
+2021/11/16 12:35:38 Client 3 exits the resource 
+2021/11/16 12:35:38 Access to resource has been given to client: (2)
+2021/11/16 12:35:38 Client 3 attempts to retrieve the access token 
+2021/11/16 12:35:38 client 3 waits for its turn
+2021/11/16 12:35:38 Client 2 has accessed the resource 
+2021/11/16 12:35:39 Client 2 exits the resource 
+2021/11/16 12:35:39 Access to resource has been given to client: (1)
+2021/11/16 12:35:39 Client 1 has accessed the resource 
+2021/11/16 12:35:39 Client 2 attempts to retrieve the access token 
+2021/11/16 12:35:39 client 2 waits for its turn
+2021/11/16 12:35:40 Client 1 exits the resource 
+2021/11/16 12:35:40 Access to resource has been given to client: (3)
+2021/11/16 12:35:40 Client 1 attempts to retrieve the access token 
+2021/11/16 12:35:40 client 1 waits for its turn
+2021/11/16 12:35:40 Client 3 has accessed the resource 
+2021/11/16 12:35:41 Client 3 exits the resource 
+2021/11/16 12:35:41 Access to resource has been given to client: (2)
+2021/11/16 12:35:41 Client 3 attempts to retrieve the access token 
+2021/11/16 12:35:41 client 3 waits for its turn
+2021/11/16 12:35:41 Client 2 has accessed the resource 
+2021/11/16 12:35:42 Client 2 exits the resource 
+2021/11/16 12:35:42 Access to resource has been given to client: (1)
+2021/11/16 12:35:42 Client 1 has accessed the resource 
+2021/11/16 12:35:42 Client 2 attempts to retrieve the access token 
+2021/11/16 12:35:42 client 2 waits for its turn
+2021/11/16 12:35:43 Client 1 exits the resource 
+2021/11/16 12:35:43 Access to resource has been given to client: (3)
+2021/11/16 12:35:43 Client 3 has accessed the resource 
+2021/11/16 12:35:43 Client 1 attempts to retrieve the access token 
+2021/11/16 12:35:43 client 1 waits for its turn
+2021/11/16 12:35:44 Client 3 exits the resource 
+2021/11/16 12:35:44 Access to resource has been given to client: (2)
+2021/11/16 12:35:44 Client 3 attempts to retrieve the access token 
+2021/11/16 12:35:44 client 3 waits for its turn
+2021/11/16 12:35:44 Client 2 has accessed the resource 
+2021/11/16 12:35:45 Client 2 exits the resource 
+2021/11/16 12:35:45 Access to resource has been given to client: (1)
+2021/11/16 12:35:45 Client 1 has accessed the resource 
+2021/11/16 12:35:45 Client 2 attempts to retrieve the access token 
+2021/11/16 12:35:45 client 2 waits for its turn
+2021/11/16 12:35:46 Client 1 exits the resource 
+2021/11/16 12:35:46 Access to resource has been given to client: (3)
+2021/11/16 12:35:46 Client 1 attempts to retrieve the access token 
+2021/11/16 12:35:46 client 1 waits for its turn
+2021/11/16 12:35:46 Client 3 has accessed the resource 
+2021/11/16 12:35:47 Client 3 exits the resource 
+2021/11/16 12:35:47 Access to resource has been given to client: (2)
+2021/11/16 12:35:47 Client 2 has accessed the resource 
+2021/11/16 12:35:47 Client 3 attempts to retrieve the access token 
+2021/11/16 12:35:47 client 3 waits for its turn
+2021/11/16 12:35:48 Client 2 exits the resource 
+2021/11/16 12:35:48 Access to resource has been given to client: (1)
+2021/11/16 12:35:48 Client 1 has accessed the resource 
+2021/11/16 12:35:48 Client 2 attempts to retrieve the access token 
+2021/11/16 12:35:48 client 2 waits for its turn
+2021/11/16 12:35:49 Client 1 exits the resource 
+2021/11/16 12:35:49 Access to resource has been given to client: (3)
+2021/11/16 12:35:49 Client 3 has accessed the resource 
+2021/11/16 12:35:49 Client 1 attempts to retrieve the access token 
+2021/11/16 12:35:49 client 1 waits for its turn
+2021/11/16 12:35:50 Client 3 exits the resource 
+2021/11/16 12:35:50 Access to resource has been given to client: (2)
+2021/11/16 12:35:50 Client 2 has accessed the resource 
+2021/11/16 12:35:50 Client 3 attempts to retrieve the access token 
+2021/11/16 12:35:50 client 3 waits for its turn
+2021/11/16 12:35:51 Client 2 exits the resource 
+2021/11/16 12:35:51 Access to resource has been given to client: (1)
+2021/11/16 12:35:51 Client 2 attempts to retrieve the access token 
+2021/11/16 12:35:51 client 2 waits for its turn
+2021/11/16 12:35:51 Client 1 has accessed the resource 
+2021/11/16 12:35:52 Client 1 exits the resource 
+2021/11/16 12:35:52 Access to resource has been given to client: (3)
+2021/11/16 12:35:52 Client 1 attempts to retrieve the access token 
+2021/11/16 12:35:52 client 1 waits for its turn
+2021/11/16 12:35:52 Client 3 has accessed the resource 
+2021/11/16 12:35:53 Client 3 exits the resource 
+2021/11/16 12:35:53 Access to resource has been given to client: (2)
+2021/11/16 12:35:53 Client 2 has accessed the resource 
+2021/11/16 12:35:53 Client 3 attempts to retrieve the access token 
+2021/11/16 12:35:53 client 3 waits for its turn
+2021/11/16 12:35:54 Client 2 exits the resource 
+2021/11/16 12:35:54 Access to resource has been given to client: (1)
+2021/11/16 12:35:54 Client 1 has accessed the resource 
+2021/11/16 12:35:54 Client 2 attempts to retrieve the access token 
+2021/11/16 12:35:54 client 2 waits for its turn
+2021/11/16 12:35:55 Client 1 exits the resource 
+2021/11/16 12:35:55 Access to resource has been given to client: (3)
+2021/11/16 12:35:55 Client 1 attempts to retrieve the access token 
+2021/11/16 12:35:55 client 1 waits for its turn
+2021/11/16 12:35:55 Client 3 has accessed the resource 
+2021/11/16 12:35:56 Client 3 exits the resource 
+2021/11/16 12:35:56 Access to resource has been given to client: (2)
+2021/11/16 12:35:56 Client 2 has accessed the resource 
+2021/11/16 12:35:56 Client 3 attempts to retrieve the access token 
+2021/11/16 12:35:56 client 3 waits for its turn
+2021/11/16 12:35:57 Client 2 exits the resource 
+2021/11/16 12:35:57 Access to resource has been given to client: (1)
+2021/11/16 12:35:57 Client 1 has accessed the resource 
+2021/11/16 12:35:57 Client 2 attempts to retrieve the access token 
+2021/11/16 12:35:57 client 2 waits for its turn
+2021/11/16 12:35:58 Client 1 exits the resource 
+2021/11/16 12:35:58 Access to resource has been given to client: (3)
+2021/11/16 12:35:58 Client 1 attempts to retrieve the access token 
+2021/11/16 12:35:58 client 1 waits for its turn
+2021/11/16 12:35:58 Client 3 has accessed the resource 
+2021/11/16 12:35:59 Client 3 exits the resource 
+2021/11/16 12:35:59 Access to resource has been given to client: (2)
+2021/11/16 12:35:59 Client 3 attempts to retrieve the access token 
+2021/11/16 12:35:59 client 3 waits for its turn
+2021/11/16 12:35:59 Client 2 has accessed the resource 
+2021/11/16 12:36:00 Client 2 exits the resource 
+2021/11/16 12:36:00 Access to resource has been given to client: (1)
+2021/11/16 12:36:00 Client 1 has accessed the resource 
+2021/11/16 12:36:00 Client 2 attempts to retrieve the access token 
+2021/11/16 12:36:00 client 2 waits for its turn
+2021/11/16 12:36:01 Client 1 exits the resource 
+2021/11/16 12:36:01 Access to resource has been given to client: (3)
+2021/11/16 12:36:01 Client 3 has accessed the resource 
+2021/11/16 12:36:01 Client 1 attempts to retrieve the access token 
+2021/11/16 12:36:01 client 1 waits for its turn
+2021/11/16 12:36:02 Client 3 exits the resource 
+2021/11/16 12:36:02 Access to resource has been given to client: (2)
+2021/11/16 12:36:02 Client 2 has accessed the resource 
+2021/11/16 12:36:02 Client 3 attempts to retrieve the access token 
+2021/11/16 12:36:02 client 3 waits for its turn
+2021/11/16 12:36:03 Client 2 exits the resource 
+2021/11/16 12:36:03 Access to resource has been given to client: (1)
+2021/11/16 12:36:03 Client 2 attempts to retrieve the access token 
+2021/11/16 12:36:03 client 2 waits for its turn
+2021/11/16 12:36:03 Client 1 has accessed the resource 
+2021/11/16 12:36:04 Client 1 exits the resource 
+2021/11/16 12:36:04 Access to resource has been given to client: (3)
+2021/11/16 12:36:04 Client 3 has accessed the resource 
+2021/11/16 12:36:04 Client 1 attempts to retrieve the access token 
+2021/11/16 12:36:04 client 1 waits for its turn
+2021/11/16 12:36:05 Client 3 exits the resource 
+2021/11/16 12:36:05 Access to resource has been given to client: (2)
+2021/11/16 12:36:05 Client 3 attempts to retrieve the access token 
+2021/11/16 12:36:05 client 3 waits for its turn
+2021/11/16 12:36:05 Client 2 has accessed the resource 
+2021/11/16 12:36:06 Client 2 exits the resource 
+2021/11/16 12:36:06 Access to resource has been given to client: (1)
+2021/11/16 12:36:06 Client 2 attempts to retrieve the access token 
+2021/11/16 12:36:06 client 2 waits for its turn
+2021/11/16 12:36:06 Client 1 has accessed the resource 
+2021/11/16 12:36:07 Client 1 exits the resource 
+2021/11/16 12:36:07 Access to resource has been given to client: (3)
+2021/11/16 12:36:07 Client 1 attempts to retrieve the access token 
+2021/11/16 12:36:07 client 1 waits for its turn
+2021/11/16 12:36:07 Client 3 has accessed the resource 
+2021/11/16 12:36:08 Client 3 exits the resource 
+2021/11/16 12:36:08 Access to resource has been given to client: (2)
+2021/11/16 12:36:08 Client 3 attempts to retrieve the access token 
+2021/11/16 12:36:08 client 3 waits for its turn
+2021/11/16 12:36:08 Client 2 has accessed the resource 
+2021/11/16 12:36:09 Client 2 exits the resource 
+2021/11/16 12:36:09 Access to resource has been given to client: (1)
+2021/11/16 12:36:09 Client 2 attempts to retrieve the access token 
+2021/11/16 12:36:09 Client 1 has accessed the resource 
+2021/11/16 12:36:09 client 2 waits for its turn
+2021/11/16 12:36:10 Client 1 exits the resource 
+2021/11/16 12:36:10 Access to resource has been given to client: (3)
+2021/11/16 12:36:10 Client 3 has accessed the resource 
+2021/11/16 12:36:10 Client 1 attempts to retrieve the access token 
+2021/11/16 12:36:10 client 1 waits for its turn
+2021/11/16 12:36:11 Client 3 exits the resource 
+2021/11/16 12:36:11 Access to resource has been given to client: (2)
+2021/11/16 12:36:11 Client 3 attempts to retrieve the access token 
+2021/11/16 12:36:11 client 3 waits for its turn
+2021/11/16 12:36:11 Client 2 has accessed the resource 
+2021/11/16 12:36:12 Client 2 exits the resource 
+2021/11/16 12:36:12 Access to resource has been given to client: (1)
+2021/11/16 12:36:12 Client 2 attempts to retrieve the access token 
+2021/11/16 12:36:12 client 2 waits for its turn
+2021/11/16 12:36:12 Client 1 has accessed the resource 
+2021/11/16 12:36:13 Client 1 exits the resource 
+2021/11/16 12:36:13 Access to resource has been given to client: (3)
+2021/11/16 12:36:13 Client 3 has accessed the resource 
+2021/11/16 12:36:13 Client 1 attempts to retrieve the access token 
+2021/11/16 12:36:13 client 1 waits for its turn
+2021/11/16 12:36:14 Client 3 exits the resource 
+2021/11/16 12:36:14 Access to resource has been given to client: (2)
+2021/11/16 12:36:14 Client 2 has accessed the resource 
+2021/11/16 12:36:14 Client 3 attempts to retrieve the access token 
+2021/11/16 12:36:14 client 3 waits for its turn
+2021/11/16 12:36:15 Client 2 exits the resource 
+2021/11/16 12:36:15 Access to resource has been given to client: (1)
+2021/11/16 12:36:15 Client 1 has accessed the resource 
+2021/11/16 12:36:15 Client 2 attempts to retrieve the access token 
+2021/11/16 12:36:15 client 2 waits for its turn
+2021/11/16 12:36:16 Client 1 exits the resource 
+2021/11/16 12:36:16 Access to resource has been given to client: (3)
+2021/11/16 12:36:16 Client 1 attempts to retrieve the access token 
+2021/11/16 12:36:16 client 1 waits for its turn
+2021/11/16 12:36:16 Client 3 has accessed the resource 
+2021/11/16 12:36:17 Client 3 exits the resource 
+2021/11/16 12:36:17 Access to resource has been given to client: (2)
+2021/11/16 12:36:17 Client 3 attempts to retrieve the access token 
+2021/11/16 12:36:17 client 3 waits for its turn
+2021/11/16 12:36:17 Client 2 has accessed the resource 
+2021/11/16 12:36:18 Client 2 exits the resource 
+2021/11/16 12:36:18 Access to resource has been given to client: (1)
+2021/11/16 12:36:18 Client 1 has accessed the resource 
+2021/11/16 12:36:18 Client 2 attempts to retrieve the access token 
+2021/11/16 12:36:18 client 2 waits for its turn
+2021/11/16 12:36:19 Client 1 exits the resource 
+2021/11/16 12:36:19 Access to resource has been given to client: (3)
+2021/11/16 12:36:19 Client 3 has accessed the resource 
+2021/11/16 12:36:19 Client 1 attempts to retrieve the access token 
+2021/11/16 12:36:19 client 1 waits for its turn
+2021/11/16 12:36:20 Client 3 exits the resource 
+2021/11/16 12:36:20 Access to resource has been given to client: (2)
+2021/11/16 12:36:20 Client 3 attempts to retrieve the access token 
+2021/11/16 12:36:20 client 3 waits for its turn
+2021/11/16 12:36:20 Client 2 has accessed the resource 
+2021/11/16 12:36:21 Client 2 exits the resource 
+2021/11/16 12:36:21 Access to resource has been given to client: (1)
+2021/11/16 12:36:21 Client 1 has accessed the resource 
+2021/11/16 12:36:21 Client 2 attempts to retrieve the access token 
+2021/11/16 12:36:21 client 2 waits for its turn
+2021/11/16 12:36:22 Client 1 exits the resource 
+2021/11/16 12:36:22 Access to resource has been given to client: (3)
+2021/11/16 12:36:22 Client 3 has accessed the resource 
+2021/11/16 12:36:22 Client 1 attempts to retrieve the access token 
+2021/11/16 12:36:22 client 1 waits for its turn
+2021/11/16 12:36:23 Client 3 exits the resource 
+2021/11/16 12:36:23 Access to resource has been given to client: (2)
+2021/11/16 12:36:23 Client 3 attempts to retrieve the access token 
+2021/11/16 12:36:23 client 3 waits for its turn
+2021/11/16 12:36:23 Client 2 has accessed the resource 
+2021/11/16 12:36:24 Client 2 exits the resource 
+2021/11/16 12:36:24 Access to resource has been given to client: (1)
+2021/11/16 12:36:24 Client 1 has accessed the resource 
+2021/11/16 12:36:24 Client 2 attempts to retrieve the access token 
+2021/11/16 12:36:24 client 2 waits for its turn
+2021/11/16 12:36:25 Client 1 exits the resource 
+2021/11/16 12:36:25 Access to resource has been given to client: (3)
+2021/11/16 12:36:25 Client 3 has accessed the resource 
+2021/11/16 12:36:25 Client 1 attempts to retrieve the access token 
+2021/11/16 12:36:25 client 1 waits for its turn
+2021/11/16 12:36:26 Client 3 exits the resource 
+2021/11/16 12:36:26 Access to resource has been given to client: (2)
+2021/11/16 12:36:26 Client 3 attempts to retrieve the access token 
+2021/11/16 12:36:26 client 3 waits for its turn
+2021/11/16 12:36:26 Client 2 has accessed the resource 
+2021/11/16 12:36:27 Client 2 exits the resource 
+2021/11/16 12:36:27 Access to resource has been given to client: (1)
+2021/11/16 12:36:27 Client 2 attempts to retrieve the access token 
+2021/11/16 12:36:27 client 2 waits for its turn
+2021/11/16 12:36:27 Client 1 has accessed the resource 
+2021/11/16 12:36:28 Client 1 exits the resource 
+2021/11/16 12:36:28 Access to resource has been given to client: (3)
+2021/11/16 12:36:28 Client 3 has accessed the resource 
+2021/11/16 12:36:28 Client 1 attempts to retrieve the access token 
+2021/11/16 12:36:28 client 1 waits for its turn
+2021/11/16 12:36:29 Client 3 exits the resource 
+2021/11/16 12:36:29 Access to resource has been given to client: (2)
+2021/11/16 12:36:29 Client 2 has accessed the resource 
+2021/11/16 12:36:29 Client 3 attempts to retrieve the access token 
+2021/11/16 12:36:29 client 3 waits for its turn
+2021/11/16 12:36:30 Client 2 exits the resource 
+2021/11/16 12:36:30 Access to resource has been given to client: (1)
+2021/11/16 12:36:30 Client 2 attempts to retrieve the access token 
+2021/11/16 12:36:30 client 2 waits for its turn
+2021/11/16 12:36:30 Client 1 has accessed the resource 
+2021/11/16 12:36:31 Client 1 exits the resource 
+2021/11/16 12:36:31 Access to resource has been given to client: (3)
+2021/11/16 12:36:31 Client 3 has accessed the resource 
+2021/11/16 12:36:31 Client 1 attempts to retrieve the access token 
+2021/11/16 12:36:31 client 1 waits for its turn
+2021/11/16 12:36:32 Client 3 exits the resource 
+2021/11/16 12:36:32 Access to resource has been given to client: (2)
+2021/11/16 12:36:32 Client 2 has accessed the resource 
+2021/11/16 12:36:32 Client 3 attempts to retrieve the access token 
+2021/11/16 12:36:32 client 3 waits for its turn
+2021/11/16 12:36:33 Client 2 exits the resource 
+2021/11/16 12:36:33 Access to resource has been given to client: (1)
+2021/11/16 12:36:33 Client 1 has accessed the resource 
+2021/11/16 12:36:33 Client 2 attempts to retrieve the access token 
+2021/11/16 12:36:33 client 2 waits for its turn
+2021/11/16 12:36:34 Client 1 exits the resource 
+2021/11/16 12:36:34 Access to resource has been given to client: (3)
+2021/11/16 12:36:35 Client 3 has accessed the resource 
+2021/11/16 12:36:35 Client 1 attempts to retrieve the access token 
+2021/11/16 12:36:35 client 1 waits for its turn
+2021/11/16 12:36:36 Client 3 exits the resource 
+2021/11/16 12:36:36 Access to resource has been given to client: (2)
+2021/11/16 12:36:36 Client 2 has accessed the resource 
+2021/11/16 12:36:36 Client 3 attempts to retrieve the access token 
+2021/11/16 12:36:36 client 3 waits for its turn
+2021/11/16 12:36:37 Client 2 exits the resource 
+2021/11/16 12:36:37 Access to resource has been given to client: (1)
+2021/11/16 12:36:37 Client 1 has accessed the resource 
+2021/11/16 12:36:37 Client 2 attempts to retrieve the access token 
+2021/11/16 12:36:37 client 2 waits for its turn
+2021/11/16 12:36:38 Client 1 exits the resource 
+2021/11/16 12:36:38 Access to resource has been given to client: (3)
+2021/11/16 12:36:38 Client 3 has accessed the resource 
+2021/11/16 12:36:38 Client 1 attempts to retrieve the access token 
+2021/11/16 12:36:38 client 1 waits for its turn
+2021/11/16 12:36:39 Client 3 exits the resource 
+2021/11/16 12:36:39 Access to resource has been given to client: (2)
+2021/11/16 12:36:39 Client 2 has accessed the resource 
+2021/11/16 12:36:39 Client 3 attempts to retrieve the access token 
+2021/11/16 12:36:39 client 3 waits for its turn
+2021/11/16 12:36:40 Client 2 exits the resource 
+2021/11/16 12:36:40 Access to resource has been given to client: (1)
+2021/11/16 12:36:40 Client 2 attempts to retrieve the access token 
+2021/11/16 12:36:40 client 2 waits for its turn
+2021/11/16 12:36:40 Client 1 has accessed the resource 
+2021/11/16 12:36:41 Client 1 exits the resource 
+2021/11/16 12:36:41 Access to resource has been given to client: (3)
+2021/11/16 12:36:41 Client 3 has accessed the resource 
+2021/11/16 12:36:41 Client 1 attempts to retrieve the access token 
+2021/11/16 12:36:41 client 1 waits for its turn
+2021/11/16 12:36:42 Client 3 exits the resource 
+2021/11/16 12:36:42 Access to resource has been given to client: (2)
+2021/11/16 12:36:42 Client 2 has accessed the resource 
+2021/11/16 12:36:42 Client 3 attempts to retrieve the access token 
+2021/11/16 12:36:42 client 3 waits for its turn
+2021/11/16 12:36:43 Client 2 exits the resource 
+2021/11/16 12:36:43 Access to resource has been given to client: (1)
+2021/11/16 12:36:43 Client 1 has accessed the resource 
+2021/11/16 12:36:43 Client 2 attempts to retrieve the access token 
+2021/11/16 12:36:43 client 2 waits for its turn
+2021/11/16 12:36:44 Client 1 exits the resource 
+2021/11/16 12:36:44 Access to resource has been given to client: (3)
+2021/11/16 12:36:44 Client 1 attempts to retrieve the access token 
+2021/11/16 12:36:44 client 1 waits for its turn
+2021/11/16 12:36:44 Client 3 has accessed the resource 
+2021/11/16 12:36:45 Client 3 exits the resource 
+2021/11/16 12:36:45 Access to resource has been given to client: (2)
+2021/11/16 12:36:45 Client 3 attempts to retrieve the access token 
+2021/11/16 12:36:45 client 3 waits for its turn
+2021/11/16 12:36:45 Client 2 has accessed the resource 
+2021/11/16 12:36:46 Client 2 exits the resource 
+2021/11/16 12:36:46 Access to resource has been given to client: (1)
+2021/11/16 12:36:46 Client 2 attempts to retrieve the access token 
+2021/11/16 12:36:46 client 2 waits for its turn
+2021/11/16 12:36:46 Client 1 has accessed the resource 
+2021/11/16 12:36:47 Client 1 exits the resource 
+2021/11/16 12:36:47 Access to resource has been given to client: (3)
+2021/11/16 12:36:47 Client 1 attempts to retrieve the access token 
+2021/11/16 12:36:47 client 1 waits for its turn
+2021/11/16 12:36:47 Client 3 has accessed the resource 
+2021/11/16 12:36:48 Client 3 exits the resource 
+2021/11/16 12:36:48 Access to resource has been given to client: (2)
+2021/11/16 12:36:48 Client 3 attempts to retrieve the access token 
+2021/11/16 12:36:48 Client 2 has accessed the resource 
+2021/11/16 12:36:48 client 3 waits for its turn
+2021/11/16 12:36:49 Client 2 exits the resource 
+2021/11/16 12:36:49 Access to resource has been given to client: (1)
+2021/11/16 12:36:49 Client 2 attempts to retrieve the access token 
+2021/11/16 12:36:49 client 2 waits for its turn
+2021/11/16 12:36:49 Client 1 has accessed the resource 
+2021/11/16 12:36:50 Client 1 exits the resource 
+2021/11/16 12:36:50 Access to resource has been given to client: (3)
+2021/11/16 12:36:50 Client 3 has accessed the resource 
+2021/11/16 12:36:50 Client 1 attempts to retrieve the access token 
+2021/11/16 12:36:50 client 1 waits for its turn
+2021/11/16 12:36:51 Client 3 exits the resource 
+2021/11/16 12:36:51 Access to resource has been given to client: (2)
+2021/11/16 12:36:51 Client 2 has accessed the resource 
+2021/11/16 12:36:51 Client 3 attempts to retrieve the access token 
+2021/11/16 12:36:51 client 3 waits for its turn
+2021/11/16 12:36:52 Client 2 exits the resource 
+2021/11/16 12:36:52 Access to resource has been given to client: (1)
+2021/11/16 12:36:52 Client 2 attempts to retrieve the access token 
+2021/11/16 12:36:52 client 2 waits for its turn
+2021/11/16 12:36:52 Client 1 has accessed the resource 
+2021/11/16 12:36:53 Client 1 exits the resource 
+2021/11/16 12:36:53 Access to resource has been given to client: (3)
+2021/11/16 12:36:53 Client 1 attempts to retrieve the access token 
+2021/11/16 12:36:53 client 1 waits for its turn
+2021/11/16 12:36:53 Client 3 has accessed the resource 
+2021/11/16 12:36:54 Client 3 exits the resource 
+2021/11/16 12:36:54 Access to resource has been given to client: (2)
+2021/11/16 12:36:54 Client 2 has accessed the resource 
+2021/11/16 12:36:54 Client 3 attempts to retrieve the access token 
+2021/11/16 12:36:54 client 3 waits for its turn
+2021/11/16 12:36:55 Client 2 exits the resource 
+2021/11/16 12:36:55 Access to resource has been given to client: (1)
+2021/11/16 12:36:55 Client 2 attempts to retrieve the access token 
+2021/11/16 12:36:55 client 2 waits for its turn
+2021/11/16 12:36:55 Client 1 has accessed the resource 
+2021/11/16 12:36:56 Client 1 exits the resource 
+2021/11/16 12:36:56 Access to resource has been given to client: (3)
+2021/11/16 12:36:56 Client 1 attempts to retrieve the access token 
+2021/11/16 12:36:56 client 1 waits for its turn
+2021/11/16 12:36:56 Client 3 has accessed the resource 
+2021/11/16 12:36:57 Client 3 exits the resource 
+2021/11/16 12:36:57 Access to resource has been given to client: (2)
+2021/11/16 12:36:57 Client 3 attempts to retrieve the access token 
+2021/11/16 12:36:57 client 3 waits for its turn
+2021/11/16 12:36:57 Client 2 has accessed the resource 
+2021/11/16 12:36:58 Client 2 exits the resource 
+2021/11/16 12:36:58 Access to resource has been given to client: (1)
+2021/11/16 12:36:58 Client 2 attempts to retrieve the access token 
+2021/11/16 12:36:58 client 2 waits for its turn
+2021/11/16 12:36:58 Client 1 has accessed the resource 
+2021/11/16 12:36:59 Client 1 exits the resource 
+2021/11/16 12:36:59 Access to resource has been given to client: (3)
+2021/11/16 12:36:59 Client 1 attempts to retrieve the access token 
+2021/11/16 12:36:59 client 1 waits for its turn
+2021/11/16 12:36:59 Client 3 has accessed the resource 
+2021/11/16 12:37:00 Client 3 exits the resource 
+2021/11/16 12:37:00 Access to resource has been given to client: (2)
+2021/11/16 12:37:00 Client 2 has accessed the resource 
+2021/11/16 12:37:00 Client 3 attempts to retrieve the access token 
+2021/11/16 12:37:00 client 3 waits for its turn
+2021/11/16 12:37:01 Client 2 exits the resource 
+2021/11/16 12:37:01 Access to resource has been given to client: (1)
+2021/11/16 12:37:01 Client 2 attempts to retrieve the access token 
+2021/11/16 12:37:01 client 2 waits for its turn
+2021/11/16 12:37:01 Client 1 has accessed the resource 
+2021/11/16 12:37:02 Client 1 exits the resource 
+2021/11/16 12:37:02 Access to resource has been given to client: (3)
+2021/11/16 12:37:02 Client 1 attempts to retrieve the access token 
+2021/11/16 12:37:02 client 1 waits for its turn
+2021/11/16 12:37:02 Client 3 has accessed the resource 
+2021/11/16 12:37:03 Client 3 exits the resource 
+2021/11/16 12:37:03 Access to resource has been given to client: (2)
+2021/11/16 12:37:03 Client 2 has accessed the resource 
+2021/11/16 12:37:03 Client 3 attempts to retrieve the access token 
+2021/11/16 12:37:03 client 3 waits for its turn
+2021/11/16 12:37:04 Client 2 exits the resource 
+2021/11/16 12:37:04 Access to resource has been given to client: (1)
+2021/11/16 12:37:04 Client 1 has accessed the resource 
+2021/11/16 12:37:04 Client 2 attempts to retrieve the access token 
+2021/11/16 12:37:04 client 2 waits for its turn
+2021/11/16 12:37:05 Client 1 exits the resource 
+2021/11/16 12:37:05 Access to resource has been given to client: (3)
+2021/11/16 12:37:05 Client 3 has accessed the resource 
+2021/11/16 12:37:05 Client 1 attempts to retrieve the access token 
+2021/11/16 12:37:05 client 1 waits for its turn
+2021/11/16 12:37:06 Client 3 exits the resource 
+2021/11/16 12:37:06 Access to resource has been given to client: (2)
+2021/11/16 12:37:06 Client 3 attempts to retrieve the access token 
+2021/11/16 12:37:06 client 3 waits for its turn
+2021/11/16 12:37:06 Client 2 has accessed the resource 
+2021/11/16 12:37:07 Client 2 exits the resource 
+2021/11/16 12:37:07 Access to resource has been given to client: (1)
+2021/11/16 12:37:07 Client 2 attempts to retrieve the access token 
+2021/11/16 12:37:07 client 2 waits for its turn
+2021/11/16 12:37:07 Client 1 has accessed the resource 
+2021/11/16 12:37:08 Client 1 exits the resource 
+2021/11/16 12:37:08 Access to resource has been given to client: (3)
+2021/11/16 12:37:08 Client 3 has accessed the resource 
+2021/11/16 12:37:08 Client 1 attempts to retrieve the access token 
+2021/11/16 12:37:08 client 1 waits for its turn
+2021/11/16 12:37:09 Client 3 exits the resource 
+2021/11/16 12:37:09 Access to resource has been given to client: (2)
+2021/11/16 12:37:09 Client 2 has accessed the resource 
+2021/11/16 12:37:09 Client 3 attempts to retrieve the access token 
+2021/11/16 12:37:09 client 3 waits for its turn
+2021/11/16 12:37:10 Client 2 exits the resource 
+2021/11/16 12:37:10 Access to resource has been given to client: (1)
+2021/11/16 12:37:10 Client 2 attempts to retrieve the access token 
+2021/11/16 12:37:10 client 2 waits for its turn
+2021/11/16 12:37:10 Client 1 has accessed the resource 
+2021/11/16 12:37:11 Client 1 exits the resource 
+2021/11/16 12:37:11 Access to resource has been given to client: (3)
+2021/11/16 12:37:11 Client 3 has accessed the resource 
+2021/11/16 12:37:11 Client 1 attempts to retrieve the access token 
+2021/11/16 12:37:11 client 1 waits for its turn
+2021/11/16 12:37:12 Client 3 exits the resource 
+2021/11/16 12:37:12 Access to resource has been given to client: (2)
+2021/11/16 12:37:12 Client 2 has accessed the resource 
+2021/11/16 12:37:12 Client 3 attempts to retrieve the access token 
+2021/11/16 12:37:12 client 3 waits for its turn
+2021/11/16 12:37:13 Client 2 exits the resource 
+2021/11/16 12:37:13 Access to resource has been given to client: (1)
+2021/11/16 12:37:13 Client 1 has accessed the resource 
+2021/11/16 12:37:13 Client 2 attempts to retrieve the access token 
+2021/11/16 12:37:13 client 2 waits for its turn
+2021/11/16 12:37:14 Client 1 exits the resource 
+2021/11/16 12:37:14 Access to resource has been given to client: (3)
+2021/11/16 12:37:14 Client 1 attempts to retrieve the access token 
+2021/11/16 12:37:14 client 1 waits for its turn
+2021/11/16 12:37:14 Client 3 has accessed the resource 
+2021/11/16 12:37:15 Client 3 exits the resource 
+2021/11/16 12:37:15 Access to resource has been given to client: (2)
+2021/11/16 12:37:15 Client 2 has accessed the resource 
+2021/11/16 12:37:15 Client 3 attempts to retrieve the access token 
+2021/11/16 12:37:15 client 3 waits for its turn
+2021/11/16 12:37:16 Client 2 exits the resource 
+2021/11/16 12:37:16 Access to resource has been given to client: (1)
+2021/11/16 12:37:16 Client 1 has accessed the resource 
+2021/11/16 12:37:16 Client 2 attempts to retrieve the access token 
+2021/11/16 12:37:16 client 2 waits for its turn
+2021/11/16 12:37:17 Client 1 exits the resource 
+2021/11/16 12:37:17 Access to resource has been given to client: (3)
+2021/11/16 12:37:17 Client 1 attempts to retrieve the access token 
+2021/11/16 12:37:17 client 1 waits for its turn
+2021/11/16 12:37:17 Client 3 has accessed the resource 
+2021/11/16 12:37:18 Client 3 exits the resource 
+2021/11/16 12:37:18 Access to resource has been given to client: (2)
+2021/11/16 12:37:18 Client 2 has accessed the resource 
+2021/11/16 12:37:18 Client 3 attempts to retrieve the access token 
+2021/11/16 12:37:18 client 3 waits for its turn
+2021/11/16 12:37:19 Client 2 exits the resource 
+2021/11/16 12:37:19 Access to resource has been given to client: (1)
+2021/11/16 12:37:19 Client 2 attempts to retrieve the access token 
+2021/11/16 12:37:19 client 2 waits for its turn
+2021/11/16 12:37:19 Client 1 has accessed the resource 
+2021/11/16 12:37:20 Client 1 exits the resource 
+2021/11/16 12:37:20 Access to resource has been given to client: (3)
+2021/11/16 12:37:20 Client 1 attempts to retrieve the access token 
+2021/11/16 12:37:20 client 1 waits for its turn
+2021/11/16 12:37:20 Client 3 has accessed the resource 
+2021/11/16 12:37:21 Client 3 exits the resource 
+2021/11/16 12:37:21 Access to resource has been given to client: (2)
+2021/11/16 12:37:21 Client 3 attempts to retrieve the access token 
+2021/11/16 12:37:21 client 3 waits for its turn
+2021/11/16 12:37:21 Client 2 has accessed the resource 
+2021/11/16 12:37:22 Client 2 exits the resource 
+2021/11/16 12:37:22 Access to resource has been given to client: (1)
+2021/11/16 12:37:22 Client 2 attempts to retrieve the access token 
+2021/11/16 12:37:22 client 2 waits for its turn
+2021/11/16 12:37:22 Client 1 has accessed the resource 
+2021/11/16 12:37:23 Client 1 exits the resource 
+2021/11/16 12:37:23 Access to resource has been given to client: (3)
+2021/11/16 12:37:23 Client 1 attempts to retrieve the access token 
+2021/11/16 12:37:23 client 1 waits for its turn
+2021/11/16 12:37:23 Client 3 has accessed the resource 
+2021/11/16 12:37:24 Client 3 exits the resource 
+2021/11/16 12:37:24 Access to resource has been given to client: (2)
+2021/11/16 12:37:24 Client 2 has accessed the resource 
+2021/11/16 12:37:24 Client 3 attempts to retrieve the access token 
+2021/11/16 12:37:24 client 3 waits for its turn
+2021/11/16 12:37:25 Client 2 exits the resource 
+2021/11/16 12:37:25 Access to resource has been given to client: (1)
+2021/11/16 12:37:25 Client 2 attempts to retrieve the access token 
+2021/11/16 12:37:25 client 2 waits for its turn
+2021/11/16 12:37:25 Client 1 has accessed the resource 
+2021/11/16 12:37:26 Client 1 exits the resource 
+2021/11/16 12:37:26 Access to resource has been given to client: (3)
+2021/11/16 12:37:26 Client 3 has accessed the resource 
+2021/11/16 12:37:26 Client 1 attempts to retrieve the access token 
+2021/11/16 12:37:26 client 1 waits for its turn
+2021/11/16 12:37:27 Client 3 exits the resource 
+2021/11/16 12:37:27 Access to resource has been given to client: (2)
+2021/11/16 12:37:27 Client 2 has accessed the resource 
+2021/11/16 12:37:27 Client 3 attempts to retrieve the access token 
+2021/11/16 12:37:27 client 3 waits for its turn
+2021/11/16 12:37:28 Client 2 exits the resource 
+2021/11/16 12:37:28 Access to resource has been given to client: (1)
+2021/11/16 12:37:28 Client 2 attempts to retrieve the access token 
+2021/11/16 12:37:28 client 2 waits for its turn
+2021/11/16 12:37:28 Client 1 has accessed the resource 
+2021/11/16 12:37:29 Client 1 exits the resource 
+2021/11/16 12:37:29 Access to resource has been given to client: (3)
+2021/11/16 12:37:29 Client 1 attempts to retrieve the access token 
+2021/11/16 12:37:29 client 1 waits for its turn
+2021/11/16 12:37:29 Client 3 has accessed the resource 
+2021/11/16 12:37:30 Client 3 exits the resource 
+2021/11/16 12:37:30 Access to resource has been given to client: (2)
+2021/11/16 12:37:30 Client 2 has accessed the resource 
+2021/11/16 12:37:30 Client 3 attempts to retrieve the access token 
+2021/11/16 12:37:30 client 3 waits for its turn
+2021/11/16 12:37:31 Client 2 exits the resource 
+2021/11/16 12:37:31 Access to resource has been given to client: (1)
+2021/11/16 12:37:31 Client 1 has accessed the resource 
+2021/11/16 12:37:31 Client 2 attempts to retrieve the access token 
+2021/11/16 12:37:31 client 2 waits for its turn
+2021/11/16 12:37:32 Client 1 exits the resource 
+2021/11/16 12:37:32 Access to resource has been given to client: (3)
+2021/11/16 12:37:32 Client 3 has accessed the resource 
+2021/11/16 12:37:32 Client 1 attempts to retrieve the access token 
+2021/11/16 12:37:32 client 1 waits for its turn
+2021/11/16 12:37:33 Client 3 exits the resource 
+2021/11/16 12:37:33 Access to resource has been given to client: (2)
+2021/11/16 12:37:33 Client 2 has accessed the resource 
+2021/11/16 12:37:33 Client 3 attempts to retrieve the access token 
+2021/11/16 12:37:33 client 3 waits for its turn
+2021/11/16 12:37:34 Client 2 exits the resource 
+2021/11/16 12:37:34 Access to resource has been given to client: (1)
+2021/11/16 12:37:34 Client 1 has accessed the resource 
+2021/11/16 12:37:34 Client 2 attempts to retrieve the access token 
+2021/11/16 12:37:34 client 2 waits for its turn
+2021/11/16 12:37:35 Client 1 exits the resource 
+2021/11/16 12:37:35 Access to resource has been given to client: (3)
+2021/11/16 12:37:35 Client 1 attempts to retrieve the access token 
+2021/11/16 12:37:35 client 1 waits for its turn
+2021/11/16 12:37:35 Client 3 has accessed the resource 
+2021/11/16 12:37:36 Client 3 exits the resource 
+2021/11/16 12:37:36 Access to resource has been given to client: (2)
+2021/11/16 12:37:36 Client 3 attempts to retrieve the access token 
+2021/11/16 12:37:36 client 3 waits for its turn
+2021/11/16 12:37:36 Client 2 has accessed the resource 
+2021/11/16 12:37:37 Client 2 exits the resource 
+2021/11/16 12:37:37 Access to resource has been given to client: (1)
+2021/11/16 12:37:37 Client 2 attempts to retrieve the access token 
+2021/11/16 12:37:37 client 2 waits for its turn
+2021/11/16 12:37:37 Client 1 has accessed the resource 
+2021/11/16 12:37:38 Client 1 exits the resource 
+2021/11/16 12:37:38 Access to resource has been given to client: (3)
+2021/11/16 12:37:38 Client 3 has accessed the resource 
+2021/11/16 12:37:38 Client 1 attempts to retrieve the access token 
+2021/11/16 12:37:38 client 1 waits for its turn
+2021/11/16 12:37:39 Client 3 exits the resource 
+2021/11/16 12:37:39 Access to resource has been given to client: (2)
+2021/11/16 12:37:39 Client 2 has accessed the resource 
+2021/11/16 12:37:39 Client 3 attempts to retrieve the access token 
+2021/11/16 12:37:39 client 3 waits for its turn
+2021/11/16 12:37:40 Client 2 exits the resource 
+2021/11/16 12:37:40 Access to resource has been given to client: (1)
+2021/11/16 12:37:40 Client 1 has accessed the resource 
+2021/11/16 12:37:40 Client 2 attempts to retrieve the access token 
+2021/11/16 12:37:40 client 2 waits for its turn
+2021/11/16 12:37:41 Client 1 exits the resource 
+2021/11/16 12:37:41 Access to resource has been given to client: (3)
+2021/11/16 12:37:41 Client 1 attempts to retrieve the access token 
+2021/11/16 12:37:41 client 1 waits for its turn
+2021/11/16 12:37:41 Client 3 has accessed the resource 
+2021/11/16 12:37:42 Client 3 exits the resource 
+2021/11/16 12:37:42 Access to resource has been given to client: (2)
+2021/11/16 12:37:42 Client 2 has accessed the resource 
+2021/11/16 12:37:42 Client 3 attempts to retrieve the access token 
+2021/11/16 12:37:42 client 3 waits for its turn
+2021/11/16 12:37:43 Client 2 exits the resource 
+2021/11/16 12:37:43 Access to resource has been given to client: (1)
+2021/11/16 12:37:43 Client 1 has accessed the resource 
+2021/11/16 12:37:43 Client 2 attempts to retrieve the access token 
+2021/11/16 12:37:43 client 2 waits for its turn
+2021/11/16 12:37:44 Client 1 exits the resource 
+2021/11/16 12:37:44 Access to resource has been given to client: (3)
+2021/11/16 12:37:44 Client 3 has accessed the resource 
+2021/11/16 12:37:44 Client 1 attempts to retrieve the access token 
+2021/11/16 12:37:44 client 1 waits for its turn
+2021/11/16 12:37:45 Client 3 exits the resource 
+2021/11/16 12:37:45 Access to resource has been given to client: (2)
+2021/11/16 12:37:45 Client 2 has accessed the resource 
+2021/11/16 12:37:45 Client 3 attempts to retrieve the access token 
+2021/11/16 12:37:45 client 3 waits for its turn
+2021/11/16 12:37:46 Client 2 exits the resource 
+2021/11/16 12:37:46 Access to resource has been given to client: (1)
+2021/11/16 12:37:46 Client 1 has accessed the resource 
+2021/11/16 12:37:46 Client 2 attempts to retrieve the access token 
+2021/11/16 12:37:46 client 2 waits for its turn
+2021/11/16 12:37:47 Client 1 exits the resource 
+2021/11/16 12:37:47 Access to resource has been given to client: (3)
+2021/11/16 12:37:47 Client 1 attempts to retrieve the access token 
+2021/11/16 12:37:47 client 1 waits for its turn
+2021/11/16 12:37:47 Client 3 has accessed the resource 
+2021/11/16 12:37:48 Client 3 exits the resource 
+2021/11/16 12:37:48 Access to resource has been given to client: (2)
+2021/11/16 12:37:48 Client 3 attempts to retrieve the access token 
+2021/11/16 12:37:48 client 3 waits for its turn
+2021/11/16 12:37:48 Client 2 has accessed the resource 
+2021/11/16 12:37:49 Client 2 exits the resource 
+2021/11/16 12:37:49 Access to resource has been given to client: (1)
+2021/11/16 12:37:49 Client 1 has accessed the resource 
+2021/11/16 12:37:49 Client 2 attempts to retrieve the access token 
+2021/11/16 12:37:49 client 2 waits for its turn
+2021/11/16 12:37:50 Client 1 exits the resource 
+2021/11/16 12:37:50 Access to resource has been given to client: (3)
+2021/11/16 12:37:50 Client 1 attempts to retrieve the access token 
+2021/11/16 12:37:50 client 1 waits for its turn
+2021/11/16 12:37:50 Client 3 has accessed the resource 
+2021/11/16 12:37:51 Client 3 exits the resource 
+2021/11/16 12:37:51 Access to resource has been given to client: (2)
+2021/11/16 12:37:51 Client 3 attempts to retrieve the access token 
+2021/11/16 12:37:51 client 3 waits for its turn
+2021/11/16 12:37:51 Client 2 has accessed the resource 
+2021/11/16 12:37:52 Client 2 exits the resource 
+2021/11/16 12:37:52 Access to resource has been given to client: (1)
+2021/11/16 12:37:52 Client 2 attempts to retrieve the access token 
+2021/11/16 12:37:52 client 2 waits for its turn
+2021/11/16 12:37:52 Client 1 has accessed the resource 
+2021/11/16 12:37:53 Client 1 exits the resource 
+2021/11/16 12:37:53 Access to resource has been given to client: (3)
+2021/11/16 12:37:53 Client 1 attempts to retrieve the access token 
+2021/11/16 12:37:53 client 1 waits for its turn
+2021/11/16 12:37:53 Client 3 has accessed the resource 
+2021/11/16 12:37:54 Client 3 exits the resource 
+2021/11/16 12:37:54 Access to resource has been given to client: (2)
+2021/11/16 12:37:54 Client 2 has accessed the resource 
+2021/11/16 12:37:54 Client 3 attempts to retrieve the access token 
+2021/11/16 12:37:54 client 3 waits for its turn
+2021/11/16 12:37:55 Client 2 exits the resource 
+2021/11/16 12:37:55 Access to resource has been given to client: (1)
+2021/11/16 12:37:55 Client 2 attempts to retrieve the access token 
+2021/11/16 12:37:55 client 2 waits for its turn
+2021/11/16 12:37:55 Client 1 has accessed the resource 
+2021/11/16 12:37:56 Client 1 exits the resource 
+2021/11/16 12:37:56 Access to resource has been given to client: (3)
+2021/11/16 12:37:56 Client 1 attempts to retrieve the access token 
+2021/11/16 12:37:56 client 1 waits for its turn
+2021/11/16 12:37:56 Client 3 has accessed the resource 
+2021/11/16 12:37:57 Client 3 exits the resource 
+2021/11/16 12:37:57 Access to resource has been given to client: (2)
+2021/11/16 12:37:57 Client 3 attempts to retrieve the access token 
+2021/11/16 12:37:57 client 3 waits for its turn
+2021/11/16 12:37:57 Client 2 has accessed the resource 
+2021/11/16 12:37:58 Client 2 exits the resource 
+2021/11/16 12:37:58 Access to resource has been given to client: (1)
+2021/11/16 12:37:58 Client 2 attempts to retrieve the access token 
+2021/11/16 12:37:58 client 2 waits for its turn
+2021/11/16 12:37:58 Client 1 has accessed the resource 
+2021/11/16 12:37:59 Client 1 exits the resource 
+2021/11/16 12:37:59 Access to resource has been given to client: (3)
+2021/11/16 12:37:59 Client 3 has accessed the resource 
+2021/11/16 12:37:59 Client 1 attempts to retrieve the access token 
+2021/11/16 12:37:59 client 1 waits for its turn
+2021/11/16 12:38:00 Client 3 exits the resource 
+2021/11/16 12:38:00 Access to resource has been given to client: (2)
+2021/11/16 12:38:00 Client 2 has accessed the resource 
+2021/11/16 12:38:00 Client 3 attempts to retrieve the access token 
+2021/11/16 12:38:00 client 3 waits for its turn
+2021/11/16 12:38:01 Client 2 exits the resource 
+2021/11/16 12:38:01 Access to resource has been given to client: (1)
+2021/11/16 12:38:01 Client 2 attempts to retrieve the access token 
+2021/11/16 12:38:01 client 2 waits for its turn
+2021/11/16 12:38:01 Client 1 has accessed the resource 
+2021/11/16 12:38:02 Client 1 exits the resource 
+2021/11/16 12:38:02 Access to resource has been given to client: (3)
+2021/11/16 12:38:02 Client 3 has accessed the resource 
+2021/11/16 12:38:02 Client 1 attempts to retrieve the access token 
+2021/11/16 12:38:02 client 1 waits for its turn
+2021/11/16 12:38:03 Client 3 exits the resource 
+2021/11/16 12:38:03 Access to resource has been given to client: (2)
+2021/11/16 12:38:03 Client 2 has accessed the resource 
+2021/11/16 12:38:03 Client 3 attempts to retrieve the access token 
+2021/11/16 12:38:03 client 3 waits for its turn
+2021/11/16 12:38:04 Client 2 exits the resource 
+2021/11/16 12:38:04 Access to resource has been given to client: (1)
+2021/11/16 12:38:04 Client 1 has accessed the resource 
+2021/11/16 12:38:04 Client 2 attempts to retrieve the access token 
+2021/11/16 12:38:04 client 2 waits for its turn
+2021/11/16 12:38:05 Client 1 exits the resource 
+2021/11/16 12:38:05 Access to resource has been given to client: (3)
+2021/11/16 12:38:05 Client 3 has accessed the resource 
+2021/11/16 12:38:05 Client 1 attempts to retrieve the access token 
+2021/11/16 12:38:05 client 1 waits for its turn
+2021/11/16 12:38:06 Client 3 exits the resource 
+2021/11/16 12:38:06 Access to resource has been given to client: (2)
+2021/11/16 12:38:06 Client 2 has accessed the resource 
+2021/11/16 12:38:06 Client 3 attempts to retrieve the access token 
+2021/11/16 12:38:06 client 3 waits for its turn
+2021/11/16 12:38:07 Client 2 exits the resource 
+2021/11/16 12:38:07 Access to resource has been given to client: (1)
+2021/11/16 12:38:07 Client 2 attempts to retrieve the access token 
+2021/11/16 12:38:07 client 2 waits for its turn
+2021/11/16 12:38:07 Client 1 has accessed the resource 
+2021/11/16 12:38:08 Client 1 exits the resource 
+2021/11/16 12:38:08 Access to resource has been given to client: (3)
+2021/11/16 12:38:08 Client 3 has accessed the resource 
+2021/11/16 12:38:08 Client 1 attempts to retrieve the access token 
+2021/11/16 12:38:08 client 1 waits for its turn
+2021/11/16 12:38:09 Client 3 exits the resource 
+2021/11/16 12:38:09 Access to resource has been given to client: (2)
+2021/11/16 12:38:09 Client 3 attempts to retrieve the access token 
+2021/11/16 12:38:09 client 3 waits for its turn
+2021/11/16 12:38:09 Client 2 has accessed the resource 
+2021/11/16 12:38:10 Client 2 exits the resource 
+2021/11/16 12:38:10 Access to resource has been given to client: (1)
+2021/11/16 12:38:10 Client 1 has accessed the resource 
+2021/11/16 12:38:10 Client 2 attempts to retrieve the access token 
+2021/11/16 12:38:10 client 2 waits for its turn
+2021/11/16 12:38:11 Client 1 exits the resource 
+2021/11/16 12:38:11 Access to resource has been given to client: (3)
+2021/11/16 12:38:11 Client 1 attempts to retrieve the access token 
+2021/11/16 12:38:11 client 1 waits for its turn
+2021/11/16 12:38:11 Client 3 has accessed the resource 
+2021/11/16 12:38:12 Client 3 exits the resource 
+2021/11/16 12:38:12 Access to resource has been given to client: (2)
+2021/11/16 12:38:12 Client 3 attempts to retrieve the access token 
+2021/11/16 12:38:12 client 3 waits for its turn
+2021/11/16 12:38:12 Client 2 has accessed the resource 
+2021/11/16 12:38:13 Client 2 exits the resource 
+2021/11/16 12:38:13 Access to resource has been given to client: (1)
+2021/11/16 12:38:13 Client 1 has accessed the resource 
+2021/11/16 12:38:13 Client 2 attempts to retrieve the access token 
+2021/11/16 12:38:13 client 2 waits for its turn
+2021/11/16 12:38:14 Client 1 exits the resource 
+2021/11/16 12:38:14 Access to resource has been given to client: (3)
+2021/11/16 12:38:14 Client 3 has accessed the resource 
+2021/11/16 12:38:14 Client 1 attempts to retrieve the access token 
+2021/11/16 12:38:14 client 1 waits for its turn
+2021/11/16 12:38:15 Client 3 exits the resource 
+2021/11/16 12:38:15 Access to resource has been given to client: (2)
+2021/11/16 12:38:15 Client 2 has accessed the resource 
+2021/11/16 12:38:15 Client 3 attempts to retrieve the access token 
+2021/11/16 12:38:15 client 3 waits for its turn
+2021/11/16 12:38:16 Client 2 exits the resource 
+2021/11/16 12:38:16 Access to resource has been given to client: (1)
+2021/11/16 12:38:16 Client 1 has accessed the resource 
+2021/11/16 12:38:16 Client 2 attempts to retrieve the access token 
+2021/11/16 12:38:16 client 2 waits for its turn
+2021/11/16 12:38:17 Client 1 exits the resource 
+2021/11/16 12:38:17 Access to resource has been given to client: (3)
+2021/11/16 12:38:17 Client 3 has accessed the resource 
+2021/11/16 12:38:17 Client 1 attempts to retrieve the access token 
+2021/11/16 12:38:17 client 1 waits for its turn
+2021/11/16 12:38:18 Client 3 exits the resource 
+2021/11/16 12:38:18 Access to resource has been given to client: (2)
+2021/11/16 12:38:18 Client 3 attempts to retrieve the access token 
+2021/11/16 12:38:18 client 3 waits for its turn
+2021/11/16 12:38:18 Client 2 has accessed the resource 
+2021/11/16 12:38:19 Client 2 exits the resource 
+2021/11/16 12:38:19 Access to resource has been given to client: (1)
+2021/11/16 12:38:19 Client 1 has accessed the resource 
+2021/11/16 12:38:19 Client 2 attempts to retrieve the access token 
+2021/11/16 12:38:19 client 2 waits for its turn
+2021/11/16 12:38:20 Client 1 exits the resource 
+2021/11/16 12:38:20 Access to resource has been given to client: (3)
+2021/11/16 12:38:20 Client 1 attempts to retrieve the access token 
+2021/11/16 12:38:20 client 1 waits for its turn
+2021/11/16 12:38:20 Client 3 has accessed the resource 
+2021/11/16 12:38:21 Client 3 exits the resource 
+2021/11/16 12:38:21 Access to resource has been given to client: (2)
+2021/11/16 12:38:21 Client 2 has accessed the resource 
+2021/11/16 12:38:21 Client 3 attempts to retrieve the access token 
+2021/11/16 12:38:21 client 3 waits for its turn
+2021/11/16 12:38:22 Client 2 exits the resource 
+2021/11/16 12:38:22 Access to resource has been given to client: (1)
+2021/11/16 12:38:22 Client 2 attempts to retrieve the access token 
+2021/11/16 12:38:22 client 2 waits for its turn
+2021/11/16 12:38:22 Client 1 has accessed the resource 
+2021/11/16 12:38:23 Client 1 exits the resource 
+2021/11/16 12:38:23 Access to resource has been given to client: (3)
+2021/11/16 12:38:23 Client 1 attempts to retrieve the access token 
+2021/11/16 12:38:23 client 1 waits for its turn
+2021/11/16 12:38:23 Client 3 has accessed the resource 
+2021/11/16 12:38:24 Client 3 exits the resource 
+2021/11/16 12:38:24 Access to resource has been given to client: (2)
+2021/11/16 12:38:24 Client 3 attempts to retrieve the access token 
+2021/11/16 12:38:24 client 3 waits for its turn
+2021/11/16 12:38:24 Client 2 has accessed the resource 
+2021/11/16 12:38:25 Client 2 exits the resource 
+2021/11/16 12:38:25 Access to resource has been given to client: (1)
+2021/11/16 12:38:25 Client 1 has accessed the resource 
+2021/11/16 12:38:25 Client 2 attempts to retrieve the access token 
+2021/11/16 12:38:25 client 2 waits for its turn
+2021/11/16 12:38:26 Client 1 exits the resource 
+2021/11/16 12:38:26 Access to resource has been given to client: (3)
+2021/11/16 12:38:26 Client 1 attempts to retrieve the access token 
+2021/11/16 12:38:26 Client 3 has accessed the resource 
+2021/11/16 12:38:26 client 1 waits for its turn
+2021/11/16 12:38:27 Client 3 exits the resource 
+2021/11/16 12:38:27 Access to resource has been given to client: (2)
+2021/11/16 12:38:27 Client 2 has accessed the resource 
+2021/11/16 12:38:27 Client 3 attempts to retrieve the access token 
+2021/11/16 12:38:27 client 3 waits for its turn
+2021/11/16 12:38:28 Client 2 exits the resource 
+2021/11/16 12:38:28 Access to resource has been given to client: (1)
+2021/11/16 12:38:28 Client 2 attempts to retrieve the access token 
+2021/11/16 12:38:28 client 2 waits for its turn
+2021/11/16 12:38:28 Client 1 has accessed the resource 
+2021/11/16 12:38:29 Client 1 exits the resource 
+2021/11/16 12:38:29 Access to resource has been given to client: (3)
+2021/11/16 12:38:29 Client 3 has accessed the resource 
+2021/11/16 12:38:29 Client 1 attempts to retrieve the access token 
+2021/11/16 12:38:29 client 1 waits for its turn
+2021/11/16 12:38:30 Client 3 exits the resource 
+2021/11/16 12:38:30 Access to resource has been given to client: (2)
+2021/11/16 12:38:30 Client 2 has accessed the resource 
+2021/11/16 12:38:30 Client 3 attempts to retrieve the access token 
+2021/11/16 12:38:30 client 3 waits for its turn
+2021/11/16 12:38:31 Client 2 exits the resource 
+2021/11/16 12:38:31 Access to resource has been given to client: (1)
+2021/11/16 12:38:31 Client 2 attempts to retrieve the access token 
+2021/11/16 12:38:31 client 2 waits for its turn
+2021/11/16 12:38:31 Client 1 has accessed the resource 
+2021/11/16 12:38:32 Client 1 exits the resource 
+2021/11/16 12:38:32 Access to resource has been given to client: (3)
+2021/11/16 12:38:32 Client 1 attempts to retrieve the access token 
+2021/11/16 12:38:32 client 1 waits for its turn
+2021/11/16 12:38:32 Client 3 has accessed the resource 
+2021/11/16 12:38:33 Client 3 exits the resource 
+2021/11/16 12:38:33 Access to resource has been given to client: (2)
+2021/11/16 12:38:33 Client 2 has accessed the resource 
+2021/11/16 12:38:33 Client 3 attempts to retrieve the access token 
+2021/11/16 12:38:33 client 3 waits for its turn
+2021/11/16 12:38:34 Client 2 exits the resource 
+2021/11/16 12:38:34 Access to resource has been given to client: (1)
+2021/11/16 12:38:34 Client 1 has accessed the resource 
+2021/11/16 12:38:34 Client 2 attempts to retrieve the access token 
+2021/11/16 12:38:34 client 2 waits for its turn
+2021/11/16 12:38:35 Client 1 exits the resource 
+2021/11/16 12:38:35 Access to resource has been given to client: (3)
+2021/11/16 12:38:35 Client 1 attempts to retrieve the access token 
+2021/11/16 12:38:35 client 1 waits for its turn
+2021/11/16 12:38:35 Client 3 has accessed the resource 
+2021/11/16 12:38:36 Client 3 exits the resource 
+2021/11/16 12:38:36 Access to resource has been given to client: (2)
+2021/11/16 12:38:36 Client 2 has accessed the resource 
+2021/11/16 12:38:36 Client 3 attempts to retrieve the access token 
+2021/11/16 12:38:36 client 3 waits for its turn
+2021/11/16 12:38:37 Client 2 exits the resource 
+2021/11/16 12:38:37 Access to resource has been given to client: (1)
+2021/11/16 12:38:37 Client 2 attempts to retrieve the access token 
+2021/11/16 12:38:37 client 2 waits for its turn
+2021/11/16 12:38:37 Client 1 has accessed the resource 
+2021/11/16 12:38:38 Client 1 exits the resource 
+2021/11/16 12:38:38 Access to resource has been given to client: (3)
+2021/11/16 12:38:38 Client 3 has accessed the resource 
+2021/11/16 12:38:38 Client 1 attempts to retrieve the access token 
+2021/11/16 12:38:38 client 1 waits for its turn
+2021/11/16 12:38:39 Client 3 exits the resource 
+2021/11/16 12:38:39 Access to resource has been given to client: (2)
+2021/11/16 12:38:39 Client 3 attempts to retrieve the access token 
+2021/11/16 12:38:39 client 3 waits for its turn
+2021/11/16 12:38:39 Client 2 has accessed the resource 
+2021/11/16 12:38:40 Client 2 exits the resource 
+2021/11/16 12:38:40 Access to resource has been given to client: (1)
+2021/11/16 12:38:40 Client 2 attempts to retrieve the access token 
+2021/11/16 12:38:40 client 2 waits for its turn
+2021/11/16 12:38:40 Client 1 has accessed the resource 
+2021/11/16 12:38:41 Client 1 exits the resource 
+2021/11/16 12:38:41 Access to resource has been given to client: (3)
+2021/11/16 12:38:41 Client 3 has accessed the resource 
+2021/11/16 12:38:41 Client 1 attempts to retrieve the access token 
+2021/11/16 12:38:41 client 1 waits for its turn
+2021/11/16 12:38:42 client.sendEntryRequest() throws: rpc error: code = Unavailable desc = error reading from server: read tcp 127.0.0.1:50190->127.0.0.1:5400: wsarecv: An existing connection was forcibly closed by the remote host.
+2021/11/16 12:38:42 client.sendEntryRequest() throws: rpc error: code = Unavailable desc = error reading from server: read tcp 127.0.0.1:50192->127.0.0.1:5400: wsarecv: An existing connection was forcibly closed by the remote host.
+2021/11/16 12:38:45 client.sendEntryRequest() throws: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp [::1]:5400: connectex: No connection could be made because the target machine actively refused it."

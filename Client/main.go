@@ -6,7 +6,6 @@ import (
 	"fmt"
 	"io"
 	"log"
-	// "math/rand"
 	"os"
 	"time"
 
@@ -116,17 +115,13 @@ func getAccess() {
 		SendersName: *sendername,
 		LamportTime: *lamportTime,
 	}
-	response, err := client.ResourceAccess(ctx, request)
+	_, err := client.ResourceAccess(ctx, request)
 
 	if err != nil {
 		log.Fatalf("client.getAccess(ctx, &channel) throws: %v", err)
 	}
 
-	if response != nil {
-
-	}
-
-	time.Sleep(time.Second * 1)
+	time.Sleep(time.Second * 5)
 	returnAccess()
 }
 

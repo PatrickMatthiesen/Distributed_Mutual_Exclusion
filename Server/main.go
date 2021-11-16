@@ -69,14 +69,7 @@ func (s *Server) Join(joinRequest *gRPC.JoinRequest, msgStream gRPC.MessageServi
 
 	log.Printf("%s Joined the server", joinRequest.SendersName)
 
-	for {
-		select {
-		case <-msgStream.Context().Done():
-			//what happens when someone leaves
-			return nil
-			// case 'something that should run all the time':
-		}
-	}
+	return nil
 }
 
 func (s *Server) Leave(ctx context.Context, leaveRequest *gRPC.LeaveRequest) (*gRPC.LeaveResponse, error) {
@@ -90,7 +83,7 @@ func (s *Server) Entry(ctx context.Context, request *gRPC.EntryRequest) (*gRPC.E
 	case requestQueue <- request:
 		if usedBy == nil {
 			usedBy = s.Clients[request.SendersName]
-			s.giveAccessToNext() //"works" if this is a go routine
+			s.giveAccessToNext()
 		}
 		log.Printf("client %s waits for its turn\n", request.SendersName)
 		<-s.turns[request.SendersName]
@@ -99,9 +92,6 @@ func (s *Server) Entry(ctx context.Context, request *gRPC.EntryRequest) (*gRPC.E
 		return &gRPC.EntryResponse{Status: "409"},
 			errors.New("action not posible, queue is full, try again later")
 	}
-
-	return &gRPC.EntryResponse{Status: "500"},
-		errors.New("error")
 }
 
 func (s *Server) ResourceAccess(ctx context.Context, request *gRPC.AccessRequest) (*gRPC.AccessResponse, error) {
@@ -120,14 +110,12 @@ func (s *Server) Exit(ctx context.Context, request *gRPC.ExitRequest) (*gRPC.Exi
 }
 
 func (s *Server) giveAccessToNext() {
-
 	select {
 	case request := <-requestQueue:
 		fmt.Printf("Access to resource has been given to client: (%s)\n", request.SendersName)
+		log.Printf("Access to resource has been given to client: (%s)\n", request.SendersName)
 		s.turns[request.SendersName] <- true
-		log.Printf("responding to entry request from %s", request.SendersName)
 	default:
 		usedBy = nil
 	}
-
 }
