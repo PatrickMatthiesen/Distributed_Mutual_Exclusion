@@ -1,5 +1,17 @@
 # Distributed_Mutual_Exclusion
 
+## How to run
+
+in seperate terminals, run a server and as many clients you want (less than 10 is recomended)
+
+server:
+go run .\Server\
+
+client:
+go run .\Client\ -sender [name]
+
+
+
 ## Description:
 
 You have to implement distributed mutual exclusion between nodes in your distributed system. 

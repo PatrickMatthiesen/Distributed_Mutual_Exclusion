@@ -55,14 +55,17 @@ func main() {
 }
 
 func newServer() *Server {
-	s := &Server{Clients: make(map[string]*gRPC.JoinRequest), turns: make(map[string]chan bool)}
+	s := &Server{
+		Clients: make(map[string]*gRPC.JoinRequest),
+		turns: make(map[string]chan bool),
+	}
 	fmt.Println(s) //prints the server struct to console
 	return s
 }
 
 func (s *Server) Join(joinRequest *gRPC.JoinRequest, msgStream gRPC.MessageService_JoinServer) error {
 	s.Clients[joinRequest.SendersName] = joinRequest //adds new client to the list
-	s.turns[joinRequest.SendersName] = make(chan bool)
+	s.turns[joinRequest.SendersName] = make(chan bool, 1)
 
 	log.Printf("%s Joined the server", joinRequest.SendersName)
 
@@ -86,11 +89,10 @@ func (s *Server) Entry(ctx context.Context, request *gRPC.EntryRequest) (*gRPC.E
 	select{
 		case requestQueue <- request:
 			if usedBy == nil {
+				usedBy = s.Clients[request.SendersName]
 				s.giveAccessToNext() //"works" if this is a go routine
-				<- s.turns[request.SendersName]
-				return &gRPC.EntryResponse{ Status: "200"}, nil
 			}
-			fmt.Printf("client %s waits for its turn\n", request.SendersName)
+			log.Printf("client %s waits for its turn\n", request.SendersName)
 			<- s.turns[request.SendersName]
 			return &gRPC.EntryResponse{ Status: "200"}, nil
 		default:
