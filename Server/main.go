@@ -14,12 +14,12 @@ import (
 )
 
 var requestQueue = make(chan *gRPC.EntryRequest, 10)
-var usedBy *gRPC.JoinRequest;
+var usedBy *gRPC.JoinRequest
 
 type Server struct {
 	gRPC.UnimplementedMessageServiceServer
-	Clients map[string] *gRPC.JoinRequest
-	turns map[string]chan bool
+	Clients map[string]*gRPC.JoinRequest
+	turns   map[string]chan bool
 }
 
 func main() {
@@ -37,7 +37,7 @@ func main() {
 	}
 
 	//connect to log file
-	f, err := os.OpenFile("log.txt", os.O_RDWR | os.O_CREATE | os.O_APPEND, 0666)
+	f, err := os.OpenFile("log.txt", os.O_RDWR|os.O_CREATE|os.O_APPEND, 0666)
 	if err != nil {
 		log.Fatalf("error opening file: %v", err)
 	}
@@ -57,7 +57,7 @@ func main() {
 func newServer() *Server {
 	s := &Server{
 		Clients: make(map[string]*gRPC.JoinRequest),
-		turns: make(map[string]chan bool),
+		turns:   make(map[string]chan bool),
 	}
 	fmt.Println(s) //prints the server struct to console
 	return s
@@ -71,14 +71,13 @@ func (s *Server) Join(joinRequest *gRPC.JoinRequest, msgStream gRPC.MessageServi
 
 	for {
 		select {
-			case <-msgStream.Context().Done():
-				//what happens when someone leaves
-				return nil
-				// case 'something that should run all the time':
+		case <-msgStream.Context().Done():
+			//what happens when someone leaves
+			return nil
+			// case 'something that should run all the time':
 		}
 	}
 }
-
 
 func (s *Server) Leave(ctx context.Context, leaveRequest *gRPC.LeaveRequest) (*gRPC.LeaveResponse, error) {
 	delete(s.Clients, leaveRequest.SendersName)
@@ -86,47 +85,49 @@ func (s *Server) Leave(ctx context.Context, leaveRequest *gRPC.LeaveRequest) (*g
 }
 
 func (s *Server) Entry(ctx context.Context, request *gRPC.EntryRequest) (*gRPC.EntryResponse, error) {
-	select{
-		case requestQueue <- request:
-			if usedBy == nil {
-				usedBy = s.Clients[request.SendersName]
-				s.giveAccessToNext() //"works" if this is a go routine
-			}
-			log.Printf("client %s waits for its turn\n", request.SendersName)
-			<- s.turns[request.SendersName]
-			return &gRPC.EntryResponse{ Status: "200"}, nil
-		default:
-			return &gRPC.EntryResponse{Status: "409"},
-					errors.New("action not posible, queue is full, try again later")
+	log.Printf("Client %s attempts to retrieve the access token \n", request.SendersName)
+	select {
+	case requestQueue <- request:
+		if usedBy == nil {
+			usedBy = s.Clients[request.SendersName]
+			s.giveAccessToNext() //"works" if this is a go routine
+		}
+		log.Printf("client %s waits for its turn\n", request.SendersName)
+		<-s.turns[request.SendersName]
+		return &gRPC.EntryResponse{Status: "200"}, nil
+	default:
+		return &gRPC.EntryResponse{Status: "409"},
+			errors.New("action not posible, queue is full, try again later")
 	}
-	
+
 	return &gRPC.EntryResponse{Status: "500"},
-					errors.New("error")
+		errors.New("error")
 }
 
-func (s *Server) ResourceAccess(ctx context.Context, request *gRPC.AccessRequest) (*gRPC.AccessResponse, error){
+func (s *Server) ResourceAccess(ctx context.Context, request *gRPC.AccessRequest) (*gRPC.AccessResponse, error) {
 	usedBy = s.Clients[request.SendersName]
-	fmt.Printf("access given to client %s\n", request.SendersName)
+	fmt.Printf("Client %s has accessed the resource \n", request.SendersName)
+	log.Printf("Client %s has accessed the resource \n", request.SendersName)
 
 	return &gRPC.AccessResponse{Status: "200"}, nil
 }
 
-func (s *Server) Exit(ctx context.Context, request *gRPC.ExitRequest) (*gRPC.ExitResponse, error){
+func (s *Server) Exit(ctx context.Context, request *gRPC.ExitRequest) (*gRPC.ExitResponse, error) {
+	log.Printf("Client %s exits the resource \n", request.SendersName)
 	s.giveAccessToNext()
 
-	return &gRPC.ExitResponse{ Status: "200"}, nil
+	return &gRPC.ExitResponse{Status: "200"}, nil
 }
 
-func (s *Server) giveAccessToNext()  {
-	
+func (s *Server) giveAccessToNext() {
+
 	select {
 	case request := <-requestQueue:
-		fmt.Printf("gives access to next (%s)\n", request.SendersName)
+		fmt.Printf("Access to resource has been given to client: (%s)\n", request.SendersName)
 		s.turns[request.SendersName] <- true
-		log.Printf("responds to entry request from %s", request.SendersName)
+		log.Printf("responding to entry request from %s", request.SendersName)
 	default:
 		usedBy = nil
 	}
-	
-	
+
 }

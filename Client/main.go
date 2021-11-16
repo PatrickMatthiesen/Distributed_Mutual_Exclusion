@@ -6,8 +6,9 @@ import (
 	"fmt"
 	"io"
 	"log"
-	"math/rand"
-	//"time"
+	// "math/rand"
+	"os"
+	"time"
 
 	"github.com/DarkLordOfDeadstiny/Distributed_Mutual_Exclusion/gRPC"
 	"google.golang.org/grpc"
@@ -33,6 +34,14 @@ func main() {
 		log.Fatalf("Fail to Dial : %v", err)
 	}
 
+	//connect to log file
+	f, err := os.OpenFile("log.txt", os.O_RDWR|os.O_CREATE|os.O_APPEND, 0666)
+	if err != nil {
+		log.Fatalf("error opening file: %v", err)
+	}
+	defer f.Close()
+	log.SetOutput(f)
+
 	defer conn.Close()
 
 	ctx = context.Background()
@@ -41,38 +50,29 @@ func main() {
 	fmt.Println("--- join channel ---")
 	go joinServer()
 	// exitChannel(ctx, client)
+	sendEntryRequest()
 
-	//some code for getting access here, use for and gorutines?
-	for {
-		//keeps it running for now
-		sendEntryRequest()
-		//time.Sleep(time.Second * 5)// so it dont do the eat my cpu
-
-		if rand.Int31n(20) == 0 {
-			leaveServer()
-		}
-	}
 }
 
 func joinServer() {
 
 	joinreq := gRPC.JoinRequest{SendersName: *sendername}
-	responce, err := client.Join(ctx, &joinreq)
+	response, err := client.Join(ctx, &joinreq)
 	if err != nil {
-		log.Fatalf("client.JoinChannel(ctx, &channel) throws: %v", err)
+		fmt.Printf("client.JoinChannel(ctx, &channel) throws: %v", err)
 	}
 
 	waitc := make(chan struct{})
 
 	go func() {
-		_, err := responce.Recv()
+		_, err := response.Recv()
 		if err == io.EOF {
 			fmt.Println("error")
 			close(waitc)
 			return
 		}
 		if err != nil {
-			log.Fatalf("Failed to Join server. \nErr: %v", err)
+			fmt.Printf("Failed to Join server. \nErr: %v", err)
 		}
 	}()
 
@@ -85,27 +85,29 @@ func leaveServer() {
 	}
 	client.Leave(ctx, request)
 	tcpServer = nil
-	log.Printf("client: %s left the server\n", *sendername)
+	fmt.Printf("client: %s left the server\n", *sendername)
 }
 
 func sendEntryRequest() {
-	log.Printf("client: %s sends entry request\n", *sendername)
+	fmt.Printf("client: %s sends entry request\n", *sendername)
 	request := &gRPC.EntryRequest{
 		SendersName: *sendername,
 		LamportTime: *lamportTime,
 	}
-	responce, err := client.Entry(ctx, request)
+	response, err := client.Entry(ctx, request)
 
 	if err != nil {
 		log.Fatalf("client.sendEntryRequest() throws: %v", err)
 	}
 
-	switch responce.Status {
+	switch response.Status {
 	case "200":
 		getAccess()
+		sendEntryRequest()
 		break
 	case "409":
-		return //fuck
+		sendEntryRequest()
+
 	}
 }
 
@@ -114,17 +116,17 @@ func getAccess() {
 		SendersName: *sendername,
 		LamportTime: *lamportTime,
 	}
-	responce, err := client.ResourceAccess(ctx, request)
+	response, err := client.ResourceAccess(ctx, request)
 
 	if err != nil {
 		log.Fatalf("client.getAccess(ctx, &channel) throws: %v", err)
 	}
 
-	if responce != nil {
+	if response != nil {
 
 	}
 
-	//time.Sleep(time.Second * 5)
+	time.Sleep(time.Second * 1)
 	returnAccess()
 }
 
@@ -135,5 +137,3 @@ func returnAccess() {
 	}
 	client.Exit(ctx, request)
 }
-
-//add methods for requesting things
